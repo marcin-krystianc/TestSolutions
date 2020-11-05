@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MathNet.Numerics" />
+    <PackageReference Include="Microsoft.ML.OnnxRuntime.MKLML" />
+    <PackageReference Include="System.Memory" />
+  </ItemGroup>
+</Project>

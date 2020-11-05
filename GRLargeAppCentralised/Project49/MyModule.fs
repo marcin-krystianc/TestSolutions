@@ -1,0 +1,4 @@
+namespace Project49
+
+module MyModule =
+    let sayHello name = sprintf "Hello %s!" name

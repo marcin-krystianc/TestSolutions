@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project184\Project184.csproj" />
+    <ProjectReference Include="..\Project189\Project189.csproj" />
+    <ProjectReference Include="..\Project213\Project213.fsproj" />
+    <ProjectReference Include="..\Project310\Project310.fsproj" />
+    <ProjectReference Include="..\Project326\Project326.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MyModule.fs" />
+  </ItemGroup>
+</Project>

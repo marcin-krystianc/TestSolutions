@@ -1,0 +1,22 @@
+<Project>
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<!-- <RuntimeIdentifiers>win10-x64</RuntimeIdentifiers> -->
+		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+		<DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+	</PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Newtonsoft.Json" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" />
+        <PackageReference Include="log4net" />
+        <PackageReference Include="Microsoft.Extensions.Http" />
+        <PackageReference Include="Microsoft.Data.SQLite" />
+        <PackageReference Include="Microsoft.AspNetCore.Http" />
+        <PackageReference Include="Serilog" />
+        <PackageReference Include="Castle.Core" />
+        <PackageReference Include="NUnit3TestAdapter" />
+        <PackageReference Include="protobuf-net" />
+        <PackageReference Include="CommandLineParser" />
+        <PackageReference Include="CommandLineParser" />
+    </ItemGroup>
+</Project>

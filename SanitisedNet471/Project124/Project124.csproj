@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net471</TargetFramework>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project117\Project117.fsproj" />
+    <ProjectReference Include="..\Project118\Project118.csproj" />
+    <ProjectReference Include="..\Project121\Project121.csproj" />
+    <ProjectReference Include="..\Project125\Project125.csproj" />
+    <ProjectReference Include="..\Project126\Project126.csproj" />
+    <ProjectReference Include="..\Project129\Project129.csproj" />
+    <ProjectReference Include="..\Project134\Project134.csproj" />
+    <ProjectReference Include="..\Project136\Project136.csproj" />
+    <ProjectReference Include="..\Project138\Project138.csproj" />
+    <ProjectReference Include="..\Project143\Project143.csproj" />
+    <ProjectReference Include="..\Project145\Project145.csproj" />
+    <ProjectReference Include="..\Project153\Project153.csproj" />
+    <ProjectReference Include="..\Project157\Project157.csproj" />
+    <ProjectReference Include="..\Project158\Project158.csproj" />
+    <ProjectReference Include="..\Project160\Project160.csproj" />
+    <ProjectReference Include="..\Project169\Project169.csproj" />
+    <ProjectReference Include="..\Project171\Project171.csproj" />
+    <ProjectReference Include="..\Project175\Project175.csproj" />
+    <ProjectReference Include="..\Project180\Project180.csproj" />
+    <ProjectReference Include="..\Project181\Project181.csproj" />
+    <ProjectReference Include="..\Project183\Project183.csproj" />
+    <ProjectReference Include="..\Project210\Project210.csproj" />
+    <ProjectReference Include="..\Project215\Project215.csproj" />
+    <ProjectReference Include="..\Project268\Project268.csproj" />
+    <ProjectReference Include="..\Project269\Project269.csproj" />
+    <ProjectReference Include="..\Project271\Project271.csproj" />
+    <ProjectReference Include="..\Project330\Project330.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Collections.Immutable" Version="1.7.1" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project138\Project138.csproj" />
+    <ProjectReference Include="..\Project140\Project140.csproj" />
+    <ProjectReference Include="..\Project142\Project142.csproj" />
+    <ProjectReference Include="..\Project146\Project146.csproj" />
+    <ProjectReference Include="..\Project149\Project149.csproj" />
+    <ProjectReference Include="..\Project151\Project151.fsproj" />
+    <ProjectReference Include="..\Project164\Project164.csproj" />
+    <ProjectReference Include="..\Project168\Project168.csproj" />
+    <ProjectReference Include="..\Project172\Project172.csproj" />
+    <ProjectReference Include="..\Project189\Project189.csproj" />
+    <ProjectReference Include="..\Project190\Project190.csproj" />
+    <ProjectReference Include="..\Project192\Project192.csproj" />
+    <ProjectReference Include="..\Project213\Project213.fsproj" />
+    <ProjectReference Include="..\Project222\Project222.fsproj" />
+    <ProjectReference Include="..\Project236\Project236.fsproj" />
+    <ProjectReference Include="..\Project243\Project243.fsproj" />
+    <ProjectReference Include="..\Project252\Project252.fsproj" />
+    <ProjectReference Include="..\Project257\Project257.fsproj" />
+    <ProjectReference Include="..\Project264\Project264.fsproj" />
+    <ProjectReference Include="..\Project268\Project268.fsproj" />
+    <ProjectReference Include="..\Project272\Project272.fsproj" />
+    <ProjectReference Include="..\Project302\Project302.fsproj" />
+    <ProjectReference Include="..\Project305\Project305.csproj" />
+    <ProjectReference Include="..\Project319\Project319.fsproj" />
+    <ProjectReference Include="..\Project323\Project323.csproj" />
+    <ProjectReference Include="..\Project324\Project324.fsproj" />
+    <ProjectReference Include="..\Project326\Project326.csproj" />
+    <ProjectReference Include="..\Project329\Project329.fsproj" />
+    <ProjectReference Include="..\Project87\Project87.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MyModule.fs" />
+  </ItemGroup>
+</Project>

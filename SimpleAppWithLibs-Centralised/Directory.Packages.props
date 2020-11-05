@@ -1,0 +1,9 @@
+<Project>
+    <ItemGroup>
+		<PackageVersion Include="Newtonsoft.Json.Bson" Version="1.0.2" />
+        <!-- 
+		<PackageVersion Include="log4net" Version="2.0.9" />
+        <PackageVersion Include="Polly" Version="7.2.1" /> 
+		-->
+    </ItemGroup>
+</Project>

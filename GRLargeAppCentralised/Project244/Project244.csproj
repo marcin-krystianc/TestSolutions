@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project184\Project184.csproj" />
+    <ProjectReference Include="..\Project193\Project193.csproj" />
+    <ProjectReference Include="..\Project226\Project226.csproj" />
+  </ItemGroup>
+</Project>

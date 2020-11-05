@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project138\Project138.csproj" />
+    <ProjectReference Include="..\Project140\Project140.csproj" />
+    <ProjectReference Include="..\Project142\Project142.csproj" />
+    <ProjectReference Include="..\Project161\Project161.csproj" />
+    <ProjectReference Include="..\Project163\Project163.csproj" />
+    <ProjectReference Include="..\Project164\Project164.csproj" />
+    <ProjectReference Include="..\Project168\Project168.csproj" />
+    <ProjectReference Include="..\Project192\Project192.csproj" />
+    <ProjectReference Include="..\Project204\Project204.csproj" />
+    <ProjectReference Include="..\Project214\Project214.csproj" />
+    <ProjectReference Include="..\Project258\Project258.csproj" />
+    <ProjectReference Include="..\Project260\Project260.csproj" />
+    <ProjectReference Include="..\Project264\Project264.fsproj" />
+    <ProjectReference Include="..\Project310\Project310.fsproj" />
+    <ProjectReference Include="..\Project317\Project317.csproj" />
+    <ProjectReference Include="..\Project323\Project323.csproj" />
+    <ProjectReference Include="..\Project326\Project326.csproj" />
+    <ProjectReference Include="..\Project340\Project340.csproj" />
+    <ProjectReference Include="..\Project342\Project342.csproj" />
+    <ProjectReference Include="..\Project344\Project344.csproj" />
+    <ProjectReference Include="..\Project87\Project87.csproj" />
+  </ItemGroup>
+</Project>
