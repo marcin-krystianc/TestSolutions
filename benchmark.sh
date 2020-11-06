@@ -11,6 +11,9 @@ global=$mydir/"global.json"
 global0=$mydir/"global0.json"
 global1=$mydir/"global1.json"
 
+# Makes sure that there are no dangling dotnet processes left after each restore 
+export MSBUILDDISABLENODEREUSE=1
+
 # exit when any command fails
 set -e
 
@@ -34,7 +37,7 @@ do
 	if [ $i -gt 0 ]
 	then
 		eta=$(echo "($dt0 + $dt1) * ($REPEATS - $i + 1)"| bc)
-		echo "dt0:$dt0 dt1:$dt1 ETA:$eta"
+		echo "$i, $dt0, $dt1, ETA:$eta"
 	else
 		echo "warmup run"
 	fi
