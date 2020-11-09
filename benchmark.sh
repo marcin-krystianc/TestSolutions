@@ -47,6 +47,7 @@ do
 	##############
 	cp $global0 $global
 	(cd $mydir/$SLN && git clean -fxd) >> /dev/null
+	sleep 5
 
 	##############
 	# Measure 0
@@ -73,6 +74,7 @@ do
 	##############
 	cp $global1 $global
 	(cd $mydir/$SLN && git clean -fxd) >> /dev/null
+	sleep 5
 
 	##############
 	# Measure 1
