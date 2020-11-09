@@ -1,6 +1,13 @@
 #!/bin/bash
-SLN="SanitisedNet471"
-REPEATS=50
+#
+# e.g:
+# seq 1 10 | xargs -I{} ./benchmark.sh SanitisedNet471 50 &&
+# seq 1 10 | xargs -I{} ./benchmark.sh OrchardCore 50 &&
+# seq 1 10 | xargs -I{} ./benchmark.sh orleans 50
+#
+
+SLN=$1
+REPEATS=${2:-50}
 
 mytime=$(date -u)
 mydir=$(realpath "`dirname \"$0\"`")
