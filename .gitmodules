@@ -1,0 +1,9 @@
+[submodule "orleans"]
+	path = orleans
+	url = https://github.com/dotnet/orleans.git
+[submodule "OrchardCore"]
+	path = OrchardCore
+	url = https://github.com/OrchardCMS/OrchardCore.git
+[submodule "NuGet.Client"]
+	path = NuGet.Client
+	url = https://github.com/NuGet/NuGet.Client.git
