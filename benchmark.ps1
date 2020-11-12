@@ -2,9 +2,11 @@ $solutions = @("SanitisedNet471", "NuGet.Client", "OrchardCore", "orleans")
 For ($i=0; $i -lt $solutions.Length; $i++) 
 {
 	$solution = $solutions[$i]
-	For ($j=0; $j -lt 2; $j++) 
+	For ($j=0; $j -lt 5; $j++) 
 	{
-		.\NuGet.Client\scripts\perftests\RunPerformanceTests.ps1 -nugetClientFilePath ..\dev.0\NuGet.exe -resultsFilePath results0_$solution.csv -solutionFilePath $solution -skipCleanRestores -skipColdRestores -skipNoOpRestores -iterationCount 50
-		.\NuGet.Client\scripts\perftests\RunPerformanceTests.ps1 -nugetClientFilePath ..\dev.1\NuGet.exe -resultsFilePath results1_$solution.csv -solutionFilePath $solution -skipCleanRestores -skipColdRestores -skipNoOpRestores -iterationCount 50
+		Copy-Item "global0.json" -Destination "global.json"
+		.\NuGet.Client\scripts\perftests\RunPerformanceTests.ps1 -nugetClientFilePath "..\dotnet\dotnet.exe" -resultsFilePath results0_$solution.csv -solutionFilePath $solution -skipCleanRestores -skipColdRestores -skipNoOpRestores -iterationCount 100
+		Copy-Item "global1.json" -Destination "global.json"
+		.\NuGet.Client\scripts\perftests\RunPerformanceTests.ps1 -nugetClientFilePath "..\dotnet\dotnet.exe" -resultsFilePath results1_$solution.csv -solutionFilePath $solution -skipCleanRestores -skipColdRestores -skipNoOpRestores -iterationCount 100
 	}
 }
