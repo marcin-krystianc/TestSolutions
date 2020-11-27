@@ -1,0 +1,6 @@
+<Project>
+    <ItemGroup>		
+        <PackageVersion Include="FSharp.Core" Version="4.7.0" />
+        <PackageVersion Include="log4net" Version="2.0.9" />
+    </ItemGroup>
+</Project>
