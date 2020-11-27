@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "dependencies": {
+    ".NETCoreApp,Version=v3.1": {
+      "ParquetSharp": {
+        "type": "Direct",
+        "requested": "[2.2.0-beta3, )",
+        "resolved": "2.2.0-beta3",
+        "contentHash": "SPjxa+3/0x6k4hCty2W5yqL1OtNVJSPkIRzkuX4A1aHLkXbezXGp4I8ULaBR3sNtCsQiKxLj2DpePF72SR2Pyw==",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        }
+      },
+      "System.Memory": {
+        "type": "Transitive",
+        "resolved": "4.5.3",
+        "contentHash": "3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA=="
+      },
+      "project330": {
+        "type": "Project"
+      }
+    }
+  }
+}

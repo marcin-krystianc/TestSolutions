@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "dependencies": {
+    ".NETCoreApp,Version=v3.1": {
+      "Accord.Math": {
+        "type": "Direct",
+        "requested": "[3.8.0, )",
+        "resolved": "3.8.0",
+        "contentHash": "K3dzeQjDIrwRnoTRoMOoIbul2Uc0B8cnEtdrSlirmIo37C+jVkmYpJzme/z4Kg99XR2Vj5W5TTNlhjn+AKR+8A==",
+        "dependencies": {
+          "Accord": "3.8.0"
+        }
+      },
+      "MathNet.Numerics": {
+        "type": "Direct",
+        "requested": "[4.11.0, )",
+        "resolved": "4.11.0",
+        "contentHash": "nmr86AZMGgLprxygcew8Q2BOlPbSYGIkponJMRBoO+CVohkE/CqYJ2KKMThVJUJ0obJxoYI7agCRe61XDVgZuw=="
+      },
+      "Accord": {
+        "type": "Transitive",
+        "resolved": "3.8.0",
+        "contentHash": "7kJrB570dO5ELim+2KWQNozuvWO9/BuZfZspdFy36fcWPNF2CEccblLuILeUlI8QJYd2DlBy0bfK8BlCx/uayA=="
+      }
+    }
+  }
+}
