@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "dependencies": {
+    ".NETFramework,Version=v4.7.1": {
+      "log4net": {
+        "type": "Direct",
+        "requested": "[2.0.9, )",
+        "resolved": "2.0.9",
+        "contentHash": "47Zayk72tM0xavMzaj+nF9zJ2m+nZOg+I2vcV5w0lC84Qb2gz3Ar/F+qWvBR7CkhnVzj130MNvXJYUIbvYjDEg=="
+      }
+    }
+  }
+}

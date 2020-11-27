@@ -1,0 +1,664 @@
+{
+  "version": 1,
+  "dependencies": {
+    ".NETFramework,Version=v4.7.1": {
+      "ARSoft.Tools.Net.Core": {
+        "type": "Transitive",
+        "resolved": "2.3.0",
+        "contentHash": "Artua4lV6QsYL0sDZlcD4igTsvc0kOqsVnpsiQCHTMvZ6p9dcKvUQybiFRpiJ0o6P3GhOqunpufXD6yvxn4TcQ==",
+        "dependencies": {
+          "Portable.BouncyCastle": "1.8.4"
+        }
+      },
+      "Equ": {
+        "type": "Transitive",
+        "resolved": "2.2.0",
+        "contentHash": "VenL5WE5bnEsXAjVpGwsG2GqrX9rmHI3AzxkZYACANuVGsyi+M8ulO5NPJp7QUZnlr1DYkDUQc/E1h9MDE91EA=="
+      },
+      "FSharp.Core": {
+        "type": "Transitive",
+        "resolved": "4.7.0",
+        "contentHash": "6Bf2qzSCaJoP6tTfO+a5muUS7QbyJANqSut73zQvwQ9It5P0ITz9VKseeia2ofco30c55EQ0jA2wf2+A2gpGnw=="
+      },
+      "FSharp.Json": {
+        "type": "Transitive",
+        "resolved": "0.4.0",
+        "contentHash": "3QchEhViQdnvJQzVG7M/CIgdCZhDJw4ZzFKMfLqb/j1cucxcUcXvIMxf6rV0ktFn9mmkmw9WOOuIsrG012vkUg==",
+        "dependencies": {
+          "FSharp.Core": "4.6.2"
+        }
+      },
+      "JetBrains.Annotations": {
+        "type": "Transitive",
+        "resolved": "2020.1.0",
+        "contentHash": "kD9D2ey3DGeLbfIzS8PkwLFkcF5vCOLk2rdjgfSxTfpoyovl7gAyoS6yq6T77zo9QgJGaVJ7PO/cSgLopnKlzg=="
+      },
+      "log4net": {
+        "type": "Transitive",
+        "resolved": "2.0.9",
+        "contentHash": "47Zayk72tM0xavMzaj+nF9zJ2m+nZOg+I2vcV5w0lC84Qb2gz3Ar/F+qWvBR7CkhnVzj130MNvXJYUIbvYjDEg=="
+      },
+      "Microsoft.AspNet.WebApi.Client": {
+        "type": "Transitive",
+        "resolved": "5.2.4",
+        "contentHash": "OdBVC2bQWkf9qDd7Mt07ev4SwIdu6VmLBMTWC0D5cOP/HWSXyv/77otwtXVrAo42duNjvXOjzjP5oOI9m1+DTQ==",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        }
+      },
+      "Microsoft.AspNetCore.WebUtilities": {
+        "type": "Transitive",
+        "resolved": "2.2.0",
+        "contentHash": "9ErxAAKaDzxXASB/b5uLEkLgUWv1QbeVxyJYEHQwMaxXOeFFVkQxiq8RyfVcifLU7NR0QY0p3acqx4ZpYfhHDg==",
+        "dependencies": {
+          "Microsoft.Net.Http.Headers": "2.2.0",
+          "System.Text.Encodings.Web": "4.5.0"
+        }
+      },
+      "Microsoft.EntityFrameworkCore": {
+        "type": "Transitive",
+        "resolved": "2.2.0",
+        "contentHash": "xfDHe+J94oz2d+ESDU8u+96iSfsiPwpgYGPRSp/bato0Ekjz5kYs61u9mS0GN5t8n/wxc5P3uEJm1x7TfROxhQ==",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "2.2.0",
+          "Microsoft.EntityFrameworkCore.Analyzers": "2.2.0",
+          "Microsoft.Extensions.Caching.Memory": "2.2.0",
+          "Microsoft.Extensions.DependencyInjection": "2.2.0",
+          "Microsoft.Extensions.Logging": "2.2.0",
+          "Remotion.Linq": "2.2.0",
+          "System.Collections.Immutable": "1.5.0",
+          "System.ComponentModel.Annotations": "4.5.0",
+          "System.Diagnostics.DiagnosticSource": "4.5.0",
+          "System.Interactive.Async": "3.2.0"
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Abstractions": {
+        "type": "Transitive",
+        "resolved": "2.2.0",
+        "contentHash": "/js/H09B8MQGoPDFzJoaAealyL66g4vKf7DVcdBYcxgKztkttjZbRzSWKF9PZZFyfBl9Ia/BiStM70t7kjgMpg=="
+      },
+      "Microsoft.EntityFrameworkCore.Analyzers": {
+        "type": "Transitive",
+        "resolved": "2.2.0",
+        "contentHash": "/1rw3toRCal80Ch51lIjuf/0WfW9ZGB4eRY1y6GOcOoOvnMXXXt+4xMRw/0k0kIwHsWUNXUpw73jf40/Pe+ZYA=="
+      },
+      "Microsoft.EntityFrameworkCore.Relational": {
+        "type": "Transitive",
+        "resolved": "2.2.0",
+        "contentHash": "CRJHHp/GqmXByeeODgbDgMDWId9kKT9TDRzHF8voWHFNTajBQl0U4jaMrHxjIP6hJ2olF8n+5GYmQv+v3bUVKQ==",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.2.0"
+        }
+      },
+      "Microsoft.EntityFrameworkCore.SqlServer": {
+        "type": "Transitive",
+        "resolved": "2.2.0",
+        "contentHash": "rCGBF6Hab9633Dh2xtiAcJnDxf2CjaBrGyoagoCoYHH5Ftbdw5zX/e9ABgif5ngzh7DsrBcgxK/3gHBZ2n+TGA==",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "2.2.0",
+          "System.Data.SqlClient": "4.6.0"
+        }
+      },
+      "Microsoft.Extensions.Caching.Abstractions": {
+        "type": "Transitive",
+        "resolved": "2.2.0",
+        "contentHash": "spsJkYo8gGJapaxTSQFN/wqA+ghpJMLwB4ZyTB+fSdpd7AmMFP/YSpIcGmczcw4KggpxLGhLk7lCkSIlgvHaqQ==",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.2.0"
+        }
+      },
+      "Microsoft.Extensions.Caching.Memory": {
+        "type": "Transitive",
+        "resolved": "2.2.0",
+        "contentHash": "yFs44RzB2Pzfoj4uk+mEz3MTTQKyeWb8gDhv5GyVPfHnLv0eQhGwzbw/5WpxAcVyOgG/H3/0ULY6g0/7/B+r7w==",
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "2.2.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Options": "2.2.0"
+        }
+      },
+      "Microsoft.Extensions.Configuration": {
+        "type": "Transitive",
+        "resolved": "2.2.0",
+        "contentHash": "nOP8R1mVb/6mZtm2qgAJXn/LFm/2kMjHDAg/QJLFG6CuWYJtaD3p1BwQhufBVvRzL9ceJ/xF0SQ0qsI2GkDQAA==",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "2.2.0"
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions": {
+        "type": "Transitive",
+        "resolved": "2.2.0",
+        "contentHash": "65MrmXCziWaQFrI0UHkQbesrX5wTwf9XPjY5yFm/VkgJKFJ5gqvXRoXjIZcf2wLi5ZlwGz/oMYfyURVCWbM5iw==",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.2.0"
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder": {
+        "type": "Transitive",
+        "resolved": "2.2.0",
+        "contentHash": "vJ9xvOZCnUAIHcGC3SU35r3HKmHTVIeHzo6u/qzlHAqD8m6xv92MLin4oJntTvkpKxVX3vI1GFFkIQtU3AdlsQ==",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "2.2.0"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection": {
+        "type": "Transitive",
+        "resolved": "2.2.0",
+        "contentHash": "MZtBIwfDFork5vfjpJdG5g8wuJFt7d/y3LOSVVtDK/76wlbtz6cjltfKHqLx2TKVqTj5/c41t77m1+h20zqtPA==",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions": {
+        "type": "Transitive",
+        "resolved": "2.2.0",
+        "contentHash": "f9hstgjVmr6rmrfGSpfsVOl2irKAgr1QjrSi3FgnS7kulxband50f2brRLwySAQTADPZeTdow0mpSMcoAdadCw=="
+      },
+      "Microsoft.Extensions.Logging": {
+        "type": "Transitive",
+        "resolved": "2.2.0",
+        "contentHash": "Nxqhadc9FCmFHzU+fz3oc8sFlE6IadViYg8dfUdGzJZ2JUxnCsRghBhhOWdM4B2zSZqEc+0BjliBh/oNdRZuig==",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Binder": "2.2.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Options": "2.2.0"
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions": {
+        "type": "Transitive",
+        "resolved": "2.2.0",
+        "contentHash": "B2WqEox8o+4KUOpL7rZPyh6qYjik8tHi2tN8Z9jZkHzED8ElYgZa/h6K+xliB435SqUcWT290Fr2aa8BtZjn8A=="
+      },
+      "Microsoft.Extensions.Options": {
+        "type": "Transitive",
+        "resolved": "2.2.0",
+        "contentHash": "UpZLNLBpIZ0GTebShui7xXYh6DmBHjWM8NxGxZbdQh/bPZ5e6YswqI+bru6BnEL5eWiOdodsXtEz3FROcgi/qg==",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Primitives": "2.2.0",
+          "System.ComponentModel.Annotations": "4.5.0"
+        }
+      },
+      "Microsoft.Extensions.Primitives": {
+        "type": "Transitive",
+        "resolved": "2.2.0",
+        "contentHash": "azyQtqbm4fSaDzZHD/J+V6oWMFaf2tWP4WEGIYePLCMw3+b2RQdj9ybgbQyjCshcitQKQ4lEDOZjmSlTTrHxUg==",
+        "dependencies": {
+          "System.Memory": "4.5.1",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.1"
+        }
+      },
+      "Microsoft.Net.Http.Headers": {
+        "type": "Transitive",
+        "resolved": "2.2.0",
+        "contentHash": "iZNkjYqlo8sIOI0bQfpsSoMTmB/kyvmV2h225ihyZT33aTp48ZpF6qYnXxzSXmHt8DpBAwBTX+1s1UFLbYfZKg==",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.2.0",
+          "System.Buffers": "4.5.0"
+        }
+      },
+      "Newtonsoft.Json": {
+        "type": "Transitive",
+        "resolved": "6.0.4",
+        "contentHash": "FyQLmEpjsCrEP+znauLDGAi+h6i9YnaMkITlfIoiM4RYyX3nki306bTHsr/0okiIvIc7BJhQTbOAIZVocccFUw=="
+      },
+      "Polly": {
+        "type": "Transitive",
+        "resolved": "6.1.2",
+        "contentHash": "YIayKzqergfdSzWRpkhc7r5NpcYoljNarT0HNygewJdDsaCDgdAjGMsFAEsrlQf+rEQOPYrZlkfbhsB9QzdPIg=="
+      },
+      "Portable.BouncyCastle": {
+        "type": "Transitive",
+        "resolved": "1.8.4",
+        "contentHash": "kleoNuRemLFSGPGM0sOp3MAJTHxXEHTujt+wIEffWJ/CqLEzZv8fgyXoE8LHY61dVGRugovDfKEEnkhtUuB48Q=="
+      },
+      "Remotion.Linq": {
+        "type": "Transitive",
+        "resolved": "2.2.0",
+        "contentHash": "fK/76UmpC0FXBlGDFVPLJHQlDLYnGC+XY3eoDgCgbtrhi0vzbXDQ3n/IYHhqSKqXQfGw/u04A1drWs7rFVkRjw=="
+      },
+      "sbe-tool": {
+        "type": "Transitive",
+        "resolved": "1.13.1",
+        "contentHash": "lLtZA13Fmgm4qrETeHq76KZbmc6e1HvJZdyDhBkebZK/wf7QXDNkJrblXQrPprqzJS9SlYL3xqDw3fPFe1Dm0Q==",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        }
+      },
+      "System.Buffers": {
+        "type": "Transitive",
+        "resolved": "4.5.1",
+        "contentHash": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg=="
+      },
+      "System.Collections.Immutable": {
+        "type": "Transitive",
+        "resolved": "1.7.1",
+        "contentHash": "B43Zsz5EfMwyEbnObwRxW5u85fzJma3lrDeGcSAV1qkhSRTNY5uXAByTn9h9ddNdhM+4/YoLc/CI43umjwIl9Q==",
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        }
+      },
+      "System.ComponentModel.Annotations": {
+        "type": "Transitive",
+        "resolved": "4.5.0",
+        "contentHash": "UxYQ3FGUOtzJ7LfSdnYSFd7+oEv6M8NgUatatIN2HxNtDdlcvFAf+VIq4Of9cDMJEJC0aSRv/x898RYhB4Yppg=="
+      },
+      "System.Data.SqlClient": {
+        "type": "Transitive",
+        "resolved": "4.6.0",
+        "contentHash": "gwItUWW1BMCckicFO85c8frFaMK8SGqYn5IeA3GSX4Lmid+CjXETfoHz7Uv+Vx6L0No7iRc/7cBL8gd6o9k9/g=="
+      },
+      "System.Diagnostics.DiagnosticSource": {
+        "type": "Transitive",
+        "resolved": "4.5.0",
+        "contentHash": "eIHRELiYDQvsMToML81QFkXEEYXUSUT2F28t1SGrevWqP+epFdw80SyAXIKTXOHrIEXReFOEnEr7XlGiC2GgOg=="
+      },
+      "System.Interactive.Async": {
+        "type": "Transitive",
+        "resolved": "3.2.0",
+        "contentHash": "C07p0dAA5lGqYUPiPCK3paR709gqS4aMDDsje0v0pvffwzLaxmsn5YQTfZbyNG5qrudPx+BCxTqISnncQ3wIoQ=="
+      },
+      "System.Management": {
+        "type": "Transitive",
+        "resolved": "4.7.0",
+        "contentHash": "IY+uuGhgzWiCg21i8IvQeY/Z7m1tX8VuPF+ludfn7iTCaccTtJo5HkjZbBEL8kbBubKhAKKtNXr7uMtmAc28Pw=="
+      },
+      "System.Memory": {
+        "type": "Transitive",
+        "resolved": "4.5.4",
+        "contentHash": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        }
+      },
+      "System.Numerics.Vectors": {
+        "type": "Transitive",
+        "resolved": "4.5.0",
+        "contentHash": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ=="
+      },
+      "System.Runtime.Caching": {
+        "type": "Transitive",
+        "resolved": "4.7.0",
+        "contentHash": "NdvNRjTPxYvIEhXQszT9L9vJhdQoX6AQ0AlhjTU+5NqFQVuacJTfhPVAvtGWNA2OJCqRiR/okBcZgMwI6MqcZg=="
+      },
+      "System.Runtime.CompilerServices.Unsafe": {
+        "type": "Transitive",
+        "resolved": "4.5.3",
+        "contentHash": "3TIsJhD1EiiT0w2CcDMN/iSSwnNnsrnbzeVHSKkaEgV85txMprmuO+Yq2AdSbeVGcg28pdNDTPK87tJhX7VFHw=="
+      },
+      "System.Text.Encodings.Web": {
+        "type": "Transitive",
+        "resolved": "4.5.0",
+        "contentHash": "Xg4G4Indi4dqP1iuAiMSwpiWS54ZghzR644OtsRCm/m/lBMG8dUBhLVN7hLm8NNrNTR+iGbshCPTwrvxZPlm4g=="
+      },
+      "System.Threading.Tasks.Dataflow": {
+        "type": "Transitive",
+        "resolved": "4.7.0",
+        "contentHash": "wcKLDI8tN5KpcMcTQwXfcLHrFdfINIxDBOZS3rE8QqOds/0fRhCkR+IEfQokxT7s/Yluqk+LG/ZqZdQmA/xgCw=="
+      },
+      "YamlDotNet": {
+        "type": "Transitive",
+        "resolved": "8.1.2",
+        "contentHash": "GlPKbb4l+91dyYVKV7UnJlr2CWooNNM1ayZWC90QAmlFPgbwSkfhgId7dGjTAHqkB84BZqjMSy5PlAYf1iejVA=="
+      },
+      "project134": {
+        "type": "Project",
+        "dependencies": {
+          "JetBrains.Annotations": "2020.1.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.0",
+          "Project138": "1.0.0",
+          "Project140": "1.0.0",
+          "Project143": "1.0.0",
+          "Project145": "1.0.0",
+          "Project157": "1.0.0",
+          "Project160": "1.0.0",
+          "Project164": "1.0.0",
+          "Project171": "1.0.0",
+          "Project175": "1.0.0",
+          "Project183": "1.0.0",
+          "Project204": "1.0.0",
+          "Project208": "1.0.0",
+          "Project210": "1.0.0",
+          "Project310": "1.0.0",
+          "Project330": "1.0.0",
+          "System.Collections.Immutable": "1.7.1"
+        }
+      },
+      "project136": {
+        "type": "Project",
+        "dependencies": {
+          "JetBrains.Annotations": "2020.1.0",
+          "Microsoft.AspNetCore.WebUtilities": "2.2.0",
+          "Polly": "6.1.2",
+          "Project134": "1.0.0",
+          "Project138": "1.0.0",
+          "Project140": "1.0.0",
+          "Project142": "1.0.0",
+          "Project143": "1.0.0",
+          "Project145": "1.0.0",
+          "Project157": "1.0.0",
+          "Project160": "1.0.0",
+          "Project164": "1.0.0",
+          "Project183": "1.0.0",
+          "Project198": "1.0.0",
+          "Project201": "1.0.0",
+          "Project208": "1.0.0",
+          "Project330": "1.0.0",
+          "System.Collections.Immutable": "1.7.1"
+        }
+      },
+      "project138": {
+        "type": "Project",
+        "dependencies": {
+          "JetBrains.Annotations": "2020.1.0",
+          "Project143": "1.0.0",
+          "Project330": "1.0.0"
+        }
+      },
+      "project140": {
+        "type": "Project",
+        "dependencies": {
+          "Project138": "1.0.0",
+          "Project142": "1.0.0",
+          "Project171": "1.0.0",
+          "Project330": "1.0.0"
+        }
+      },
+      "project142": {
+        "type": "Project",
+        "dependencies": {
+          "Project138": "1.0.0",
+          "Project143": "1.0.0",
+          "System.Management": "4.7.0",
+          "System.Runtime.Caching": "4.7.0",
+          "log4net": "2.0.9"
+        }
+      },
+      "project143": {
+        "type": "Project",
+        "dependencies": {
+          "System.Collections.Immutable": "1.7.1"
+        }
+      },
+      "project145": {
+        "type": "Project",
+        "dependencies": {
+          "JetBrains.Annotations": "2020.1.0",
+          "Project138": "1.0.0",
+          "Project143": "1.0.0",
+          "Project171": "1.0.0",
+          "Project330": "1.0.0",
+          "System.Collections.Immutable": "1.7.1"
+        }
+      },
+      "project153": {
+        "type": "Project",
+        "dependencies": {
+          "Equ": "2.2.0",
+          "Project138": "1.0.0",
+          "Project140": "1.0.0",
+          "Project143": "1.0.0",
+          "Project157": "1.0.0",
+          "Project160": "1.0.0",
+          "Project175": "1.0.0",
+          "Project203": "1.0.0",
+          "Project215": "1.0.0",
+          "Project330": "1.0.0",
+          "System.Threading.Tasks.Dataflow": "4.7.0"
+        }
+      },
+      "project157": {
+        "type": "Project",
+        "dependencies": {
+          "Project138": "1.0.0",
+          "Project143": "1.0.0",
+          "Project330": "1.0.0",
+          "log4net": "2.0.9"
+        }
+      },
+      "project160": {
+        "type": "Project",
+        "dependencies": {
+          "Equ": "2.2.0",
+          "FSharp.Core": "4.7.0",
+          "Project138": "1.0.0",
+          "Project140": "1.0.0",
+          "Project143": "1.0.0",
+          "Project157": "1.0.0",
+          "Project171": "1.0.0",
+          "Project330": "1.0.0"
+        }
+      },
+      "project162": {
+        "type": "Project",
+        "dependencies": {
+          "Project138": "1.0.0",
+          "Project160": "1.0.0"
+        }
+      },
+      "project164": {
+        "type": "Project",
+        "dependencies": {
+          "JetBrains.Annotations": "2020.1.0",
+          "Project138": "1.0.0",
+          "Project140": "1.0.0",
+          "Project142": "1.0.0",
+          "Project143": "1.0.0",
+          "Project145": "1.0.0",
+          "Project153": "1.0.0",
+          "Project157": "1.0.0",
+          "Project160": "1.0.0",
+          "Project162": "1.0.0",
+          "Project171": "1.0.0",
+          "Project173": "1.0.0",
+          "Project200": "1.0.0",
+          "Project201": "1.0.0",
+          "Project210": "1.0.0",
+          "Project211": "1.0.0",
+          "Project271": "1.0.0",
+          "Project310": "1.0.0",
+          "Project330": "1.0.0"
+        }
+      },
+      "project168": {
+        "type": "Project",
+        "dependencies": {
+          "Project140": "1.0.0",
+          "Project160": "1.0.0",
+          "Project330": "1.0.0"
+        }
+      },
+      "project169": {
+        "type": "Project",
+        "dependencies": {
+          "Project143": "1.0.0"
+        }
+      },
+      "project171": {
+        "type": "Project",
+        "dependencies": {
+          "JetBrains.Annotations": "2020.1.0",
+          "Project138": "1.0.0",
+          "Project143": "1.0.0",
+          "System.Collections.Immutable": "1.7.1",
+          "sbe-tool": "1.13.1"
+        }
+      },
+      "project173": {
+        "type": "Project",
+        "dependencies": {
+          "Project143": "1.0.0",
+          "Project145": "1.0.0",
+          "Project171": "1.0.0",
+          "System.Collections.Immutable": "1.7.1"
+        }
+      },
+      "project175": {
+        "type": "Project",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.4",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.0",
+          "Project138": "1.0.0",
+          "Project143": "1.0.0",
+          "Project145": "1.0.0",
+          "Project171": "1.0.0",
+          "Project173": "1.0.0",
+          "System.Collections.Immutable": "1.7.1"
+        }
+      },
+      "project183": {
+        "type": "Project",
+        "dependencies": {
+          "ARSoft.Tools.Net.Core": "2.3.0",
+          "JetBrains.Annotations": "2020.1.0",
+          "Project138": "1.0.0",
+          "Project160": "1.0.0",
+          "Project168": "1.0.0",
+          "Project171": "1.0.0",
+          "Project257": "1.0.0",
+          "Project330": "1.0.0"
+        }
+      },
+      "project198": {
+        "type": "Project",
+        "dependencies": {
+          "FSharp.Json": "0.4.0",
+          "JetBrains.Annotations": "2020.1.0",
+          "Project134": "1.0.0",
+          "Project138": "1.0.0",
+          "Project160": "1.0.0",
+          "Project164": "1.0.0",
+          "Project303": "1.0.0",
+          "YamlDotNet": "8.1.2",
+          "log4net": "2.0.9"
+        }
+      },
+      "project200": {
+        "type": "Project",
+        "dependencies": {
+          "FSharp.Core": "4.7.0",
+          "Project140": "1.0.0"
+        }
+      },
+      "project201": {
+        "type": "Project",
+        "dependencies": {
+          "Project138": "1.0.0",
+          "Project143": "1.0.0",
+          "Project157": "1.0.0",
+          "Project160": "1.0.0",
+          "log4net": "2.0.9"
+        }
+      },
+      "project203": {
+        "type": "Project",
+        "dependencies": {
+          "Project138": "1.0.0",
+          "Project140": "1.0.0",
+          "Project160": "1.0.0",
+          "Project330": "1.0.0"
+        }
+      },
+      "project204": {
+        "type": "Project"
+      },
+      "project208": {
+        "type": "Project",
+        "dependencies": {
+          "JetBrains.Annotations": "2020.1.0",
+          "Project138": "1.0.0",
+          "Project143": "1.0.0",
+          "Project157": "1.0.0",
+          "Project160": "1.0.0",
+          "Project164": "1.0.0",
+          "log4net": "2.0.9"
+        }
+      },
+      "project210": {
+        "type": "Project",
+        "dependencies": {
+          "Project138": "1.0.0",
+          "Project143": "1.0.0",
+          "Project169": "1.0.0",
+          "Project171": "1.0.0",
+          "System.Collections.Immutable": "1.7.1"
+        }
+      },
+      "project211": {
+        "type": "Project",
+        "dependencies": {
+          "Project138": "1.0.0",
+          "Project143": "1.0.0",
+          "Project160": "1.0.0",
+          "Project162": "1.0.0",
+          "Project210": "1.0.0"
+        }
+      },
+      "project215": {
+        "type": "Project"
+      },
+      "project235": {
+        "type": "Project",
+        "dependencies": {
+          "Project136": "1.0.0",
+          "Project143": "1.0.0",
+          "Project145": "1.0.0",
+          "Project157": "1.0.0"
+        }
+      },
+      "project257": {
+        "type": "Project"
+      },
+      "project271": {
+        "type": "Project",
+        "dependencies": {
+          "Project138": "1.0.0",
+          "Project143": "1.0.0",
+          "Project157": "1.0.0",
+          "Project160": "1.0.0",
+          "Project210": "1.0.0",
+          "Project215": "1.0.0",
+          "Project330": "1.0.0"
+        }
+      },
+      "project303": {
+        "type": "Project",
+        "dependencies": {
+          "FSharp.Core": "4.7.0",
+          "Project257": "1.0.0"
+        }
+      },
+      "project310": {
+        "type": "Project",
+        "dependencies": {
+          "Project138": "1.0.0",
+          "Project143": "1.0.0",
+          "Project157": "1.0.0",
+          "Project160": "1.0.0",
+          "Project171": "1.0.0",
+          "Project330": "1.0.0"
+        }
+      },
+      "project311": {
+        "type": "Project",
+        "dependencies": {
+          "Project183": "1.0.0",
+          "Project312": "1.0.0"
+        }
+      },
+      "project312": {
+        "type": "Project",
+        "dependencies": {
+          "FSharp.Core": "4.7.0",
+          "Project330": "1.0.0"
+        }
+      },
+      "project330": {
+        "type": "Project"
+      }
+    }
+  }
+}
