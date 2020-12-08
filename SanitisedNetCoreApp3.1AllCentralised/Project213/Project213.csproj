@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project138\Project138.csproj" />
+    <ProjectReference Include="..\Project143\Project143.csproj" />
+    <ProjectReference Include="..\Project160\Project160.csproj" />
+    <ProjectReference Include="..\Project162\Project162.csproj" />
+    <ProjectReference Include="..\Project164\Project164.csproj" />
+    <ProjectReference Include="..\Project210\Project210.csproj" />
+    <ProjectReference Include="..\Project211\Project211.csproj" />
+    <ProjectReference Include="..\Project307\Project307.csproj" />
+    <ProjectReference Include="..\Project310\Project310.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Collections.Immutable" />
+  </ItemGroup>
+</Project>

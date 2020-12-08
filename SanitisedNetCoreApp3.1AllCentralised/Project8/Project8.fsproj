@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project12\Project12.fsproj" />
+    <ProjectReference Include="..\Project136\Project136.csproj" />
+    <ProjectReference Include="..\Project13\Project13.fsproj" />
+    <ProjectReference Include="..\Project142\Project142.csproj" />
+    <ProjectReference Include="..\Project143\Project143.csproj" />
+    <ProjectReference Include="..\Project145\Project145.csproj" />
+    <ProjectReference Include="..\Project147\Project147.fsproj" />
+    <ProjectReference Include="..\Project14\Project14.fsproj" />
+    <ProjectReference Include="..\Project157\Project157.csproj" />
+    <ProjectReference Include="..\Project15\Project15.fsproj" />
+    <ProjectReference Include="..\Project160\Project160.csproj" />
+    <ProjectReference Include="..\Project168\Project168.csproj" />
+    <ProjectReference Include="..\Project183\Project183.csproj" />
+    <ProjectReference Include="..\Project184\Project184.csproj" />
+    <ProjectReference Include="..\Project18\Project18.fsproj" />
+    <ProjectReference Include="..\Project19\Project19.fsproj" />
+    <ProjectReference Include="..\Project240\Project240.fsproj" />
+    <ProjectReference Include="..\Project242\Project242.fsproj" />
+    <ProjectReference Include="..\Project257\Project257.fsproj" />
+    <ProjectReference Include="..\Project258\Project258.fsproj" />
+    <ProjectReference Include="..\Project273\Project273.csproj" />
+    <ProjectReference Include="..\Project316\Project316.csproj" />
+    <ProjectReference Include="..\Project319\Project319.csproj" />
+    <ProjectReference Include="..\Project323\Project323.fsproj" />
+    <ProjectReference Include="..\Project328\Project328.fsproj" />
+    <ProjectReference Include="..\Project330\Project330.csproj" />
+    <ProjectReference Include="..\Project36\Project36.fsproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MathNet.Numerics" />
+    <PackageReference Include="MathNet.Numerics.FSharp" />
+    <PackageReference Include="TensorFlowSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MyModule.fs" />
+  </ItemGroup>
+</Project>
