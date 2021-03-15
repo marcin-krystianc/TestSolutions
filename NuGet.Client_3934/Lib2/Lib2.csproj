@@ -4,6 +4,5 @@
   </PropertyGroup>
   <ItemGroup>
 	<PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
-    <ProjectReference Include="..\Lib2\Lib2.csproj" />
   </ItemGroup>
 </Project>
