@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lib3\Lib3.csproj" />
+	<PackageReference Include="Newtonsoft.Json" Version="10.0.1" />
+  </ItemGroup>
+</Project>
