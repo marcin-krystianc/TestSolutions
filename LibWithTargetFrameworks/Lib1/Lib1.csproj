@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net461;netcoreapp3.1</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+	<PackageReference Include="Newtonsoft.Json" Version="6.0.1" Condition="'$(TargetFramework)' == 'net461'" />
+	<PackageReference Include="Newtonsoft.Json" Version="12.0.1" Condition="'$(TargetFramework)' != 'net461'" />
+  </ItemGroup>
+</Project>
