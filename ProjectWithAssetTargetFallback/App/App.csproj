@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssetTargetFallback>net472</AssetTargetFallback>
+  </PropertyGroup>
+  <ItemGroup>
+        <PackageReference Include="net472Lib" Version="1.0.0" />
+  </ItemGroup>
+</Project>
