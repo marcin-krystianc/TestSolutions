@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net471</TargetFramework>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project138\Project138.csproj" />
+    <ProjectReference Include="..\Project143\Project143.csproj" />
+    <ProjectReference Include="..\Project145\Project145.csproj" />
+    <ProjectReference Include="..\Project159\Project159.csproj" />
+    <ProjectReference Include="..\Project160\Project160.csproj" />
+    <ProjectReference Include="..\Project162\Project162.csproj" />
+    <ProjectReference Include="..\Project210\Project210.csproj" />
+    <ProjectReference Include="..\Project211\Project211.csproj" />
+    <ProjectReference Include="..\Project213\Project213.csproj" />
+    <ProjectReference Include="..\Project307\Project307.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoFixture" Version="4.8.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="Moq" Version="4.14.2" />
+    <PackageReference Include="NUnit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.16.0" />
+    <PackageReference Include="System.Collections.Immutable" Version="1.7.1" />
+  </ItemGroup>
+</Project>

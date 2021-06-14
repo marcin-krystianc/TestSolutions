@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net471</TargetFramework>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project117\Project117.fsproj" />
+    <ProjectReference Include="..\Project136\Project136.csproj" />
+    <ProjectReference Include="..\Project140\Project140.csproj" />
+    <ProjectReference Include="..\Project143\Project143.csproj" />
+    <ProjectReference Include="..\Project145\Project145.csproj" />
+    <ProjectReference Include="..\Project160\Project160.csproj" />
+    <ProjectReference Include="..\Project178\Project178.csproj" />
+    <ProjectReference Include="..\Project183\Project183.csproj" />
+    <ProjectReference Include="..\Project200\Project200.fsproj" />
+    <ProjectReference Include="..\Project330\Project330.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="JetBrains.Annotations" Version="2020.1.0" />
+    <PackageReference Include="MathNet.Numerics" Version="4.11.0" />
+  </ItemGroup>
+</Project>

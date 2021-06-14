@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net471</TargetFramework>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project136\Project136.csproj" />
+    <ProjectReference Include="..\Project160\Project160.csproj" />
+    <ProjectReference Include="..\Project184\Project184.csproj" />
+    <ProjectReference Include="..\Project208\Project208.csproj" />
+    <ProjectReference Include="..\Project257\Project257.fsproj" />
+    <ProjectReference Include="..\Project288\Project288.csproj" />
+    <ProjectReference Include="..\Project311\Project311.fsproj" />
+    <ProjectReference Include="..\Project312\Project312.fsproj" />
+    <ProjectReference Include="..\Project313\Project313.fsproj" />
+    <ProjectReference Include="..\Project314\Project314.fsproj" />
+    <ProjectReference Include="..\Project316\Project316.csproj" />
+    <ProjectReference Include="..\Project319\Project319.csproj" />
+    <ProjectReference Include="..\Project330\Project330.csproj" />
+    <ProjectReference Include="..\Project77\Project77.csproj" />
+    <ProjectReference Include="..\Project82\Project82.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MyModule.fs" />
+  </ItemGroup>
+</Project>

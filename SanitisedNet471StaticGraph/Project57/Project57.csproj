@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net471</TargetFramework>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project136\Project136.csproj" />
+    <ProjectReference Include="..\Project321\Project321.csproj" />
+    <ProjectReference Include="..\Project330\Project330.csproj" />
+    <ProjectReference Include="..\Project56\Project56.fsproj" />
+  </ItemGroup>
+</Project>
