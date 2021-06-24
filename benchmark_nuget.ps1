@@ -1,13 +1,16 @@
 $solutions = @("SanitisedNet471", "NuGet.Client", "OrchardCore", "orleans")
+# $solutions = @("NuGet.Client")
+
 $iterationCount = 25
-For ($i=0; $i -lt $solutions.Length; $i++) 
-{
+$roundCount = 2
+$versionCount = 3
+# -staticGraphRestore -skipNoOpRestores -skipForceRestores
+# -resultsFilePath results$k_$solution.csv
+
+For ($i=0; $i -lt $solutions.Length; $i++) {
+For ($j=0; $j -lt $roundCount; $j++) {
+For ($k=0; $k -lt $versionCount; $k++) 
+{        
 	$solution = $solutions[$i]
-	For ($j=0; $j -lt 2; $j++) 
-	{
-		Copy-Item "global0.json" -Destination "global.json"
-		.\NuGet.Client\scripts\perftests\RunPerformanceTests.ps1 -nugetClientFilePath "..\NuGet-dev\NuGet.exe" -resultsFilePath results0_$solution.csv -solutionFilePath $solution -skipCleanRestores -skipColdRestores -skipNoOpRestores -staticGraphRestore -iterationCount $iterationCount
-		Copy-Item "global1.json" -Destination "global.json"
-		.\NuGet.Client\scripts\perftests\RunPerformanceTests.ps1 -nugetClientFilePath "..\NuGet-dev\NuGet.exe" -resultsFilePath results1_$solution.csv -solutionFilePath $solution -skipCleanRestores -skipColdRestores -skipNoOpRestores -staticGraphRestore -iterationCount $iterationCount
-	}
-}
+    .\NuGet.Client\scripts\perftests\RunPerformanceTests.ps1 -nugetClientFilePath "..\dev-20210303-RestoreCommandCache4.$k\NuGet.exe" -resultsFilePath results.csv -solutionFilePath $solution -skipCleanRestores -skipColdRestores -skipNoOpRestores -staticGraphRestore -iterationCount $iterationCount
+}}}

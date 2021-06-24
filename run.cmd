@@ -7,14 +7,15 @@ dotnet --version >> %~dp0\results.txt
 echo %CD% >> %~dp0\results.txt
 echo %time% >> %~dp0\results.txt
 
-FOR /L %%A IN (1,1,20) DO (
-REM dotnet nuget locals all --clear
-REM git clean -fxd
-REM @echo "locals all --clear" >> %~dp0\results.txt
-REM  call %~dp0\timeIt.cmd dotnet restore
+FOR /L %%A IN (1,1,10) DO (
+  dotnet nuget locals all --clear
+  git clean -fxd
+  timeout /t 5
+  @echo "locals all --clear" >> %~dp0\results.txt
+  call %~dp0\timeIt.cmd dotnet restore
 )
 
-FOR /L %%A IN (1,1,50) DO (
+FOR /L %%A IN (1,1,10) DO (
   git clean -fxd
   timeout /t 5
   @echo "clean -fxd" >> %~dp0\results.txt
