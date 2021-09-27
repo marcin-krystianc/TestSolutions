@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project142\Project142.csproj" />
+    <ProjectReference Include="..\Project147\Project147.fsproj" />
+    <ProjectReference Include="..\Project245\Project245.fsproj" />
+    <ProjectReference Include="..\Project265\Project265.fsproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FParsec" />
+    <PackageReference Include="MathNet.Numerics" />
+    <PackageReference Include="TensorFlowSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MyModule.fs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project136\Project136.csproj" />
+    <ProjectReference Include="..\Project138\Project138.csproj" />
+    <ProjectReference Include="..\Project325\Project325.fsproj" />
+    <ProjectReference Include="..\Project330\Project330.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FsUnit" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="NUnit" />
+    <PackageReference Include="NUnit3TestAdapter" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MyModule.fs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project233\Project233.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="log4net" />
+    <PackageReference Include="System.Memory" />
+  </ItemGroup>
+</Project>

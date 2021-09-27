@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project136\Project136.csproj" />
+    <ProjectReference Include="..\Project160\Project160.csproj" />
+    <ProjectReference Include="..\Project168\Project168.csproj" />
+    <ProjectReference Include="..\Project234\Project234.fsproj" />
+    <ProjectReference Include="..\Project242\Project242.fsproj" />
+    <ProjectReference Include="..\Project258\Project258.fsproj" />
+    <ProjectReference Include="..\Project319\Project319.csproj" />
+    <ProjectReference Include="..\Project328\Project328.fsproj" />
+    <ProjectReference Include="..\Project330\Project330.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MyModule.fs" />
+  </ItemGroup>
+</Project>

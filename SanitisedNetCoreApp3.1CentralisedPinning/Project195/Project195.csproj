@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project134\Project134.csproj" />
+    <ProjectReference Include="..\Project138\Project138.csproj" />
+    <ProjectReference Include="..\Project140\Project140.csproj" />
+    <ProjectReference Include="..\Project143\Project143.csproj" />
+    <ProjectReference Include="..\Project160\Project160.csproj" />
+    <ProjectReference Include="..\Project169\Project169.csproj" />
+    <ProjectReference Include="..\Project175\Project175.csproj" />
+    <ProjectReference Include="..\Project177\Project177.csproj" />
+    <ProjectReference Include="..\Project183\Project183.csproj" />
+    <ProjectReference Include="..\Project187\Project187.csproj" />
+    <ProjectReference Include="..\Project196\Project196.csproj" />
+    <ProjectReference Include="..\Project210\Project210.csproj" />
+    <ProjectReference Include="..\Project217\Project217.csproj" />
+    <ProjectReference Include="..\Project239\Project239.csproj" />
+    <ProjectReference Include="..\Project269\Project269.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FakeItEasy" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="NUnit" />
+    <PackageReference Include="NUnit3TestAdapter" />
+    <PackageReference Include="System.Collections.Immutable" />
+  </ItemGroup>
+</Project>
