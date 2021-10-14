@@ -1,0 +1,4 @@
+<Project>
+  <Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />
+  <Import Project=".nuoptimizer\.nuoptimizer.props" Condition="Exists('.nuoptimizer\.nuoptimizer.props')" Label="nuoptimizer" />
+</Project>
