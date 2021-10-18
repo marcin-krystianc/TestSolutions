@@ -6,7 +6,8 @@ namespace Lib2
     {
         public void Method1()
         {
-            var tmp = new BsonDataObjectIdConverter();
+            var tmp1 = new BsonDataObjectIdConverter();
+            var tmp2 = typeof(Newtonsoft.Json.JsonConverter<int>);
         }
     }
 }
