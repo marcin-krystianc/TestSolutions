@@ -1,0 +1,3 @@
+<Project>
+    <Import Project="$(MSBuildThisFile)\.nuoptimizer\.nuoptimizer.props" Condition="Exists('$(MSBuildThisFile)\.nuoptimizer\.nuoptimizer.props')" Label="nuoptimizer" />
+</Project>

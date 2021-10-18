@@ -1,0 +1,3 @@
+<Project>
+  <Import Project="$(MSBuildProjectName).props" Condition=" '$(ManagePackageVersionsCentrally)' == 'true' and Exists('$(MSBuildProjectName).props') " />
+</Project>

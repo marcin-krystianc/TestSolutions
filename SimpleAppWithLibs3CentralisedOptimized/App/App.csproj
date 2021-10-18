@@ -3,6 +3,6 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-	<PackageReference Include="Newtonsoft.Json.Bson" />
+    <ProjectReference Include="..\Lib1\Lib1.csproj" />
   </ItemGroup>
 </Project>

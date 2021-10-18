@@ -1,0 +1,9 @@
+<Project>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" IncludeAssets="none" PrivateAssets="all" />
+    <PackageReference Include="Newtonsoft.Json.Bson" IncludeAssets="none" PrivateAssets="all" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lib2\Lib2.csproj" IncludeAssets="none" PrivateAssets="all" />
+  </ItemGroup>
+</Project>
