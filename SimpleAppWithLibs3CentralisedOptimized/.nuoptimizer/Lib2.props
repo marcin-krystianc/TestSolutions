@@ -1,6 +1,1 @@
-<Project>
-  <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" IncludeAssets="none" PrivateAssets="all" />
-    <PackageReference Include="Newtonsoft.Json.Bson" IncludeAssets="none" PrivateAssets="all" />
-  </ItemGroup>
-</Project>
+<Project></Project>
