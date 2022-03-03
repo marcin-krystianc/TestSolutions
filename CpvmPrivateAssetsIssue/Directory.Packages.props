@@ -1,0 +1,6 @@
+<Project>
+    <ItemGroup>
+        <PackageVersion Include="MicroBuild" Version="2.0.61" />
+        <PackageVersion Include="MicroBuild.VisualStudio" Version="2.0.61" />
+    </ItemGroup>
+</Project>
