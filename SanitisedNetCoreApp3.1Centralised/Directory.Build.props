@@ -1,6 +1,5 @@
 <Project>
 	<PropertyGroup>
 		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
-		<DisableTransitiveDependencyPinning>false</DisableTransitiveDependencyPinning>
 	</PropertyGroup>
 </Project>
