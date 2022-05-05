@@ -6,6 +6,5 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Lib1\Lib1.csproj" />
-    <PackageReference Include="Newtonsoft.Json" />
   </ItemGroup>
 </Project>
