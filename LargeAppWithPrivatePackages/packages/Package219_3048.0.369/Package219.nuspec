@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package219</id>
+    <version>3048.0.369</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="Package88" version="3048.0.369" />
+        <dependency id="Package220" version="3048.0.369" />
+        <dependency id="Package4" version="1.2.36" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

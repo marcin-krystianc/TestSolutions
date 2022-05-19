@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package18</id>
+    <version>31.0.2</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Package60" version="2.0.100" />
+        <dependency id="FSharp.Core" version="5.0.0" />
+        <dependency id="Package61" version="4.3.15" />
+        <dependency id="Package62" version="612.0.11" />
+        <dependency id="Polly.Contrib.WaitAndRetry" version="1.1.0" />
+        <dependency id="RestEase" version="1.5.0" />
+        <dependency id="log4net" version="2.0.12" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package88</id>
+    <version>3048.0.369</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.1">
+        <dependency id="Package83" version="[16.2.16]" />
+        <dependency id="Package4" version="1.2.36" />
+        <dependency id="JetBrains.Annotations" version="2020.3.0" />
+        <dependency id="System.Reactive" version="4.1.2" />
+        <dependency id="log4net" version="2.0.13" />
+      </group>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Package83" version="[16.2.16]" />
+        <dependency id="Package4" version="1.2.36" />
+        <dependency id="JetBrains.Annotations" version="2020.3.0" />
+        <dependency id="System.Reactive" version="4.1.2" />
+        <dependency id="log4net" version="2.0.13" />
+      </group>
+      <group targetFramework="net5.0">
+        <dependency id="Package83" version="[16.2.16]" />
+        <dependency id="Package4" version="1.2.36" />
+        <dependency id="JetBrains.Annotations" version="2020.3.0" />
+        <dependency id="System.Reactive" version="4.1.2" />
+        <dependency id="log4net" version="2.0.13" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Package83" version="[16.2.16]" />
+        <dependency id="Package4" version="1.2.36" />
+        <dependency id="JetBrains.Annotations" version="2020.3.0" />
+        <dependency id="System.Reactive" version="4.1.2" />
+        <dependency id="log4net" version="2.0.13" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

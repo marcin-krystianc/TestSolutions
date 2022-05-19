@@ -1,0 +1,68 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+    <DisableImplicitSystemValueTupleReference>true</DisableImplicitSystemValueTupleReference>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project173\Project173.csproj" />
+    <ProjectReference Include="..\Project245\Project245.csproj" />
+    <ProjectReference Include="..\Project249\Project249.fsproj" />
+    <ProjectReference Include="..\Project259\Project259.csproj" />
+    <ProjectReference Include="..\Project261\Project261.csproj" />
+    <ProjectReference Include="..\Project265\Project265.csproj" />
+    <ProjectReference Include="..\Project39\Project39.csproj" />
+    <ProjectReference Include="..\Project43\Project43.csproj" />
+    <ProjectReference Include="..\Project60\Project60.csproj" />
+    <ProjectReference Include="..\Project61\Project61.csproj" />
+    <ProjectReference Include="..\Project63\Project63.csproj" />
+    <ProjectReference Include="..\Project71\Project71.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Equ" />
+    <PackageReference Include="FSharp.Core" />
+    <PackageReference Include="JetBrains.Annotations" />
+    <PackageReference Include="Microsoft.Extensions.Http" />
+    <PackageReference Include="Package1" />
+    <PackageReference Include="Package101" />
+    <PackageReference Include="Package102" />
+    <PackageReference Include="Package110" />
+    <PackageReference Include="Package125" />
+    <PackageReference Include="Package127" />
+    <PackageReference Include="Package13" />
+    <PackageReference Include="Package131" />
+    <PackageReference Include="Package136" />
+    <PackageReference Include="Package14" />
+    <PackageReference Include="Package142" />
+    <PackageReference Include="Package147" />
+    <PackageReference Include="Package15" />
+    <PackageReference Include="Package16" />
+    <PackageReference Include="Package190" />
+    <PackageReference Include="Package192" />
+    <PackageReference Include="Package197" />
+    <PackageReference Include="Package198" />
+    <PackageReference Include="Package199" />
+    <PackageReference Include="Package2" />
+    <PackageReference Include="Package200" />
+    <PackageReference Include="Package201" />
+    <PackageReference Include="Package202" />
+    <PackageReference Include="Package203" />
+    <PackageReference Include="Package26" />
+    <PackageReference Include="Package27" />
+    <PackageReference Include="Package28" />
+    <PackageReference Include="Package29" />
+    <PackageReference Include="Package3" />
+    <PackageReference Include="Package31" />
+    <PackageReference Include="Package5" />
+    <PackageReference Include="Package6" />
+    <PackageReference Include="Package8" />
+    <PackageReference Include="Package86" />
+    <PackageReference Include="Package87" />
+    <PackageReference Include="Package92" />
+    <PackageReference Include="Package95" />
+    <PackageReference Include="System.Collections.Immutable" />
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" />
+    <PackageReference Include="TimeZoneConverter" />
+  </ItemGroup>
+</Project>

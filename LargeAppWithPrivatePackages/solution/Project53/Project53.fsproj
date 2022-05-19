@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+    <DisableImplicitSystemValueTupleReference>true</DisableImplicitSystemValueTupleReference>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project113\Project113.fsproj" />
+    <ProjectReference Include="..\Project128\Project128.csproj" />
+    <ProjectReference Include="..\Project129\Project129.csproj" />
+    <ProjectReference Include="..\Project131\Project131.csproj" />
+    <ProjectReference Include="..\Project140\Project140.csproj" />
+    <ProjectReference Include="..\Project15\Project15.csproj" />
+    <ProjectReference Include="..\Project177\Project177.fsproj" />
+    <ProjectReference Include="..\Project178\Project178.fsproj" />
+    <ProjectReference Include="..\Project225\Project225.fsproj" />
+    <ProjectReference Include="..\Project230\Project230.fsproj" />
+    <ProjectReference Include="..\Project254\Project254.fsproj" />
+    <ProjectReference Include="..\Project257\Project257.fsproj" />
+    <ProjectReference Include="..\Project259\Project259.csproj" />
+    <ProjectReference Include="..\Project39\Project39.csproj" />
+    <ProjectReference Include="..\Project47\Project47.fsproj" />
+    <ProjectReference Include="..\Project4\Project4.fsproj" />
+    <ProjectReference Include="..\Project54\Project54.csproj" />
+    <ProjectReference Include="..\Project5\Project5.fsproj" />
+    <ProjectReference Include="..\Project60\Project60.csproj" />
+    <ProjectReference Include="..\Project63\Project63.csproj" />
+    <ProjectReference Include="..\Project88\Project88.fsproj" />
+    <ProjectReference Include="..\Project8\Project8.fsproj" />
+    <ProjectReference Include="..\Project92\Project92.fsproj" />
+    <ProjectReference Include="..\Project93\Project93.fsproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FSharp.Core" />
+    <PackageReference Include="Package1" />
+    <PackageReference Include="Package14" />
+    <PackageReference Include="Package16" />
+    <PackageReference Include="Package17" />
+    <PackageReference Include="Package18" />
+    <PackageReference Include="Package2" />
+    <PackageReference Include="Package20" />
+    <PackageReference Include="Package26" />
+    <PackageReference Include="Package41" />
+    <PackageReference Include="Package44" />
+    <PackageReference Include="Package48" />
+    <PackageReference Include="Package49" />
+    <PackageReference Include="Package5" />
+    <PackageReference Include="Package52" />
+    <PackageReference Include="Package54" />
+    <PackageReference Include="Package56" />
+    <PackageReference Include="Package59" />
+    <PackageReference Include="Package6" />
+    <PackageReference Include="Package63" />
+    <PackageReference Include="ParquetSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MyModule.fs" />
+  </ItemGroup>
+</Project>

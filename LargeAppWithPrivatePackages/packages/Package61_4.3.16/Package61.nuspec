@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package61</id>
+    <version>4.3.16</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Google.Protobuf" version="3.18.1" />
+        <dependency id="Google.Protobuf.Tools" version="3.7.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

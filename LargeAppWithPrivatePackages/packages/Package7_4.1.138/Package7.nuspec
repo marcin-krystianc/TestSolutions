@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package7</id>
+    <version>4.1.138</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Package20" version="[15.4.14, 16.0.0)" />
+        <dependency id="FSharp.Core" version="5.0.0" />
+        <dependency id="Package42" version="2.1.5" />
+        <dependency id="Package8" version="1.8.9" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" />
+        <dependency id="Newtonsoft.Json.Bson" version="1.0.2" />
+        <dependency id="System.IO.Abstractions" version="4.2.13" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

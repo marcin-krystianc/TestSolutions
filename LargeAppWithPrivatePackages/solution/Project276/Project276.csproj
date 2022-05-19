@@ -1,0 +1,103 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+    <DisableImplicitSystemValueTupleReference>true</DisableImplicitSystemValueTupleReference>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project101\Project101.csproj" />
+    <ProjectReference Include="..\Project102\Project102.csproj" />
+    <ProjectReference Include="..\Project119\Project119.fsproj" />
+    <ProjectReference Include="..\Project11\Project11.fsproj" />
+    <ProjectReference Include="..\Project120\Project120.fsproj" />
+    <ProjectReference Include="..\Project121\Project121.csproj" />
+    <ProjectReference Include="..\Project122\Project122.fsproj" />
+    <ProjectReference Include="..\Project126\Project126.csproj" />
+    <ProjectReference Include="..\Project12\Project12.fsproj" />
+    <ProjectReference Include="..\Project140\Project140.csproj" />
+    <ProjectReference Include="..\Project146\Project146.fsproj" />
+    <ProjectReference Include="..\Project150\Project150.csproj" />
+    <ProjectReference Include="..\Project150\Project150.csproj" />
+    <ProjectReference Include="..\Project151\Project151.csproj" />
+    <ProjectReference Include="..\Project151\Project151.csproj" />
+    <ProjectReference Include="..\Project152\Project152.fsproj" />
+    <ProjectReference Include="..\Project155\Project155.fsproj" />
+    <ProjectReference Include="..\Project159\Project159.csproj" />
+    <ProjectReference Include="..\Project160\Project160.fsproj" />
+    <ProjectReference Include="..\Project160\Project160.fsproj" />
+    <ProjectReference Include="..\Project160\Project160.fsproj" />
+    <ProjectReference Include="..\Project164\Project164.fsproj" />
+    <ProjectReference Include="..\Project165\Project165.fsproj" />
+    <ProjectReference Include="..\Project175\Project175.csproj" />
+    <ProjectReference Include="..\Project186\Project186.fsproj" />
+    <ProjectReference Include="..\Project192\Project192.csproj" />
+    <ProjectReference Include="..\Project192\Project192.csproj" />
+    <ProjectReference Include="..\Project194\Project194.csproj" />
+    <ProjectReference Include="..\Project200\Project200.csproj" />
+    <ProjectReference Include="..\Project201\Project201.fsproj" />
+    <ProjectReference Include="..\Project202\Project202.fsproj" />
+    <ProjectReference Include="..\Project203\Project203.fsproj" />
+    <ProjectReference Include="..\Project204\Project204.fsproj" />
+    <ProjectReference Include="..\Project220\Project220.csproj" />
+    <ProjectReference Include="..\Project222\Project222.fsproj" />
+    <ProjectReference Include="..\Project223\Project223.fsproj" />
+    <ProjectReference Include="..\Project223\Project223.fsproj" />
+    <ProjectReference Include="..\Project227\Project227.csproj" />
+    <ProjectReference Include="..\Project227\Project227.csproj" />
+    <ProjectReference Include="..\Project229\Project229.fsproj" />
+    <ProjectReference Include="..\Project229\Project229.fsproj" />
+    <ProjectReference Include="..\Project232\Project232.csproj" />
+    <ProjectReference Include="..\Project232\Project232.csproj" />
+    <ProjectReference Include="..\Project232\Project232.csproj" />
+    <ProjectReference Include="..\Project232\Project232.csproj" />
+    <ProjectReference Include="..\Project233\Project233.csproj" />
+    <ProjectReference Include="..\Project234\Project234.csproj" />
+    <ProjectReference Include="..\Project234\Project234.csproj" />
+    <ProjectReference Include="..\Project236\Project236.fsproj" />
+    <ProjectReference Include="..\Project268\Project268.csproj" />
+    <ProjectReference Include="..\Project30\Project30.csproj" />
+    <ProjectReference Include="..\Project31\Project31.fsproj" />
+    <ProjectReference Include="..\Project31\Project31.fsproj" />
+    <ProjectReference Include="..\Project33\Project33.fsproj" />
+    <ProjectReference Include="..\Project33\Project33.fsproj" />
+    <ProjectReference Include="..\Project38\Project38.fsproj" />
+    <ProjectReference Include="..\Project3\Project3.fsproj" />
+    <ProjectReference Include="..\Project41\Project41.csproj" />
+    <ProjectReference Include="..\Project45\Project45.fsproj" />
+    <ProjectReference Include="..\Project47\Project47.fsproj" />
+    <ProjectReference Include="..\Project50\Project50.csproj" />
+    <ProjectReference Include="..\Project51\Project51.csproj" />
+    <ProjectReference Include="..\Project53\Project53.fsproj" />
+    <ProjectReference Include="..\Project55\Project55.fsproj" />
+    <ProjectReference Include="..\Project56\Project56.fsproj" />
+    <ProjectReference Include="..\Project57\Project57.fsproj" />
+    <ProjectReference Include="..\Project58\Project58.fsproj" />
+    <ProjectReference Include="..\Project67\Project67.fsproj" />
+    <ProjectReference Include="..\Project68\Project68.fsproj" />
+    <ProjectReference Include="..\Project6\Project6.fsproj" />
+    <ProjectReference Include="..\Project6\Project6.fsproj" />
+    <ProjectReference Include="..\Project6\Project6.fsproj" />
+    <ProjectReference Include="..\Project6\Project6.fsproj" />
+    <ProjectReference Include="..\Project70\Project70.fsproj" />
+    <ProjectReference Include="..\Project81\Project81.fsproj" />
+    <ProjectReference Include="..\Project82\Project82.fsproj" />
+    <ProjectReference Include="..\Project83\Project83.fsproj" />
+    <ProjectReference Include="..\Project89\Project89.fsproj" />
+    <ProjectReference Include="..\Project99\Project99.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FSharp.Core" />
+    <PackageReference Include="Package1" />
+    <PackageReference Include="Package102" />
+    <PackageReference Include="Package11" />
+    <PackageReference Include="Package130" />
+    <PackageReference Include="Package135" />
+    <PackageReference Include="Package14" />
+    <PackageReference Include="Package15" />
+    <PackageReference Include="Package2" />
+    <PackageReference Include="Package233" />
+    <PackageReference Include="Package235" />
+    <PackageReference Include="Package8" />
+  </ItemGroup>
+</Project>

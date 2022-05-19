@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package129</id>
+    <version>1.0.4465</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Package125" version="1.0.4465" />
+        <dependency id="Package16" version="2.1.1389" />
+        <dependency id="Package102" version="2.1.1389" />
+        <dependency id="Package128" version="0.2.98" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" />
+        <dependency id="SourceLink.Embed.AllSourceFiles" version="2.8.3" />
+        <dependency id="System.DirectoryServices" version="4.5.0" />
+        <dependency id="System.DirectoryServices.AccountManagement" version="4.5.0" />
+        <dependency id="System.Net.Http" version="4.3.3" />
+        <dependency id="log4net" version="2.0.12" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

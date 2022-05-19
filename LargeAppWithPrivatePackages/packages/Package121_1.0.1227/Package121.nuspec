@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package121</id>
+    <version>1.0.1227</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.1">
+        <dependency id="Package127" version="0.2.73" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" />
+        <dependency id="System.ComponentModel.Annotations" version="4.7.0" />
+        <dependency id="System.Net.Http" version="4.3.3" />
+        <dependency id="log4net" version="2.0.12" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Package127" version="0.2.73" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" />
+        <dependency id="System.ComponentModel.Annotations" version="4.7.0" />
+        <dependency id="System.Net.Http" version="4.3.3" />
+        <dependency id="log4net" version="2.0.12" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

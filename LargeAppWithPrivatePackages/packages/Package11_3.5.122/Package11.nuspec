@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package11</id>
+    <version>3.5.122</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.1">
+        <dependency id="System.IO.Abstractions" version="4.2.13" />
+        <dependency id="System.Security.Permissions" version="4.5.0" />
+      </group>
+      <group targetFramework=".NETFramework4.7.2">
+        <dependency id="System.IO.Abstractions" version="4.2.13" />
+        <dependency id="System.Security.Permissions" version="4.5.0" />
+      </group>
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="System.IO.Abstractions" version="4.2.13" />
+        <dependency id="System.Security.Permissions" version="4.5.0" />
+      </group>
+      <group targetFramework="net5.0">
+        <dependency id="System.IO.Abstractions" version="4.2.13" />
+        <dependency id="System.Security.Permissions" version="4.5.0" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.IO.Abstractions" version="4.2.13" />
+        <dependency id="System.Security.Permissions" version="4.5.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

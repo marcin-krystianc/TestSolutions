@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+    <DisableImplicitSystemValueTupleReference>true</DisableImplicitSystemValueTupleReference>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project259\Project259.csproj" />
+    <ProjectReference Include="..\Project265\Project265.csproj" />
+    <ProjectReference Include="..\Project39\Project39.csproj" />
+    <ProjectReference Include="..\Project60\Project60.csproj" />
+    <ProjectReference Include="..\Project63\Project63.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Equ" />
+    <PackageReference Include="FSharp.Core" />
+    <PackageReference Include="morelinq" />
+    <PackageReference Include="Package1" />
+    <PackageReference Include="Package101" />
+    <PackageReference Include="Package119" />
+    <PackageReference Include="Package120" />
+    <PackageReference Include="Package121" />
+    <PackageReference Include="Package14" />
+    <PackageReference Include="Package15" />
+    <PackageReference Include="Package157" />
+    <PackageReference Include="Package16" />
+    <PackageReference Include="Package160" />
+    <PackageReference Include="Package185" />
+    <PackageReference Include="Package187" />
+    <PackageReference Include="Package188" />
+    <PackageReference Include="Package189" />
+    <PackageReference Include="Package190" />
+    <PackageReference Include="Package191" />
+    <PackageReference Include="Package192" />
+    <PackageReference Include="Package193" />
+    <PackageReference Include="Package2" />
+    <PackageReference Include="Package26" />
+    <PackageReference Include="Package35" />
+    <PackageReference Include="Package38" />
+    <PackageReference Include="Package6" />
+    <PackageReference Include="Package79" />
+    <PackageReference Include="Package8" />
+    <PackageReference Include="Package86" />
+    <PackageReference Include="System.Collections.Immutable" />
+  </ItemGroup>
+</Project>

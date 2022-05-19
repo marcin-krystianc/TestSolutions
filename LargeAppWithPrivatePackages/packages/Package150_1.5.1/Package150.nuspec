@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package150</id>
+    <version>1.5.1</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.IO.FileSystem.AccessControl" version="4.5.0" />
+        <dependency id="System.Security.AccessControl" version="4.5.0" />
+        <dependency id="System.Security.Permissions" version="4.5.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
