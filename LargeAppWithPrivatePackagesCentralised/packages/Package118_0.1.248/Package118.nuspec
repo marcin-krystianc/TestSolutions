@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package118</id>
+    <version>0.1.248</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="Package116" version="0.1.248" />
+        <dependency id="Package86" version="2.4.24" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

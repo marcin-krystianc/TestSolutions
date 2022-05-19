@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package35</id>
+    <version>2.1.701</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.1">
+        <dependency id="Package31" version="2.1.630" />
+        <dependency id="Package3" version="2.2.1" />
+        <dependency id="Package32" version="0.1.0" />
+        <dependency id="Package161" version="1.0.40" />
+        <dependency id="Package162" version="1.0.56" />
+        <dependency id="Package4" version="1.0.116" />
+        <dependency id="Package150" version="1.5.1" />
+        <dependency id="Package164" version="1.2.2" />
+        <dependency id="Package8" version="1.2.213" />
+        <dependency id="Package9" version="1.1.0" />
+        <dependency id="Package134" version="3.2.202" />
+        <dependency id="Package11" version="3.2.202" />
+        <dependency id="Package165" version="1.1.164" />
+        <dependency id="JetBrains.Annotations" version="2018.3.0" />
+        <dependency id="SharpCompress" version="0.19.2" />
+        <dependency id="System.IO.Abstractions" version="4.2.13" />
+        <dependency id="System.Runtime.InteropServices.RuntimeInformation" version="4.3.0" />
+        <dependency id="ini-parser-netstandard" version="2.5.2" />
+        <dependency id="log4net" version="2.0.9" />
+      </group>
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="Package31" version="2.1.630" />
+        <dependency id="Package3" version="2.2.1" />
+        <dependency id="Package32" version="0.1.0" />
+        <dependency id="Package161" version="1.0.40" />
+        <dependency id="Package162" version="1.0.56" />
+        <dependency id="Package4" version="1.0.116" />
+        <dependency id="Package150" version="1.5.1" />
+        <dependency id="Package164" version="1.2.2" />
+        <dependency id="Package8" version="1.2.213" />
+        <dependency id="Package9" version="1.1.0" />
+        <dependency id="Package134" version="3.2.202" />
+        <dependency id="Package11" version="3.2.202" />
+        <dependency id="Package165" version="1.1.164" />
+        <dependency id="JetBrains.Annotations" version="2018.3.0" />
+        <dependency id="Microsoft.CSharp" version="4.5.0" />
+        <dependency id="SharpCompress" version="0.19.2" />
+        <dependency id="System.Configuration.ConfigurationManager" version="4.5.0" />
+        <dependency id="System.DirectoryServices" version="4.5.0" />
+        <dependency id="System.Drawing.common" version="4.5.0" />
+        <dependency id="System.IO.Abstractions" version="4.2.13" />
+        <dependency id="System.IO.FileSystem.AccessControl" version="4.5.0" />
+        <dependency id="System.Runtime.InteropServices.RuntimeInformation" version="4.3.0" />
+        <dependency id="System.Security.Permissions" version="4.5.0" />
+        <dependency id="ini-parser-netstandard" version="2.5.2" />
+        <dependency id="log4net" version="2.0.9" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Package31" version="2.1.630" />
+        <dependency id="Package3" version="2.2.1" />
+        <dependency id="Package32" version="0.1.0" />
+        <dependency id="Package161" version="1.0.40" />
+        <dependency id="Package162" version="1.0.56" />
+        <dependency id="Package4" version="1.0.116" />
+        <dependency id="Package150" version="1.5.1" />
+        <dependency id="Package164" version="1.2.2" />
+        <dependency id="Package8" version="1.2.213" />
+        <dependency id="Package9" version="1.1.0" />
+        <dependency id="Package134" version="3.2.202" />
+        <dependency id="Package11" version="3.2.202" />
+        <dependency id="Package165" version="1.1.164" />
+        <dependency id="JetBrains.Annotations" version="2018.3.0" />
+        <dependency id="Microsoft.CSharp" version="4.5.0" />
+        <dependency id="SharpCompress" version="0.19.2" />
+        <dependency id="System.Configuration.ConfigurationManager" version="4.5.0" />
+        <dependency id="System.DirectoryServices" version="4.5.0" />
+        <dependency id="System.Drawing.common" version="4.5.0" />
+        <dependency id="System.IO.Abstractions" version="4.2.13" />
+        <dependency id="System.IO.FileSystem.AccessControl" version="4.5.0" />
+        <dependency id="System.Runtime.InteropServices.RuntimeInformation" version="4.3.0" />
+        <dependency id="System.Security.Permissions" version="4.5.0" />
+        <dependency id="ini-parser-netstandard" version="2.5.2" />
+        <dependency id="log4net" version="2.0.9" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

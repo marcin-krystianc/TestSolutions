@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package227</id>
+    <version>1.1.27</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="ParquetSharp" version="2.2.0" />
+        <dependency id="log4net" version="2.0.13" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

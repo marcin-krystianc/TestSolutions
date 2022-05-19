@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package113</id>
+    <version>1.0.11</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="Package114" version="0.1.1078" />
+        <dependency id="Microsoft.Diagnostics.Tracing.TraceEvent" version="2.0.61" />
+        <dependency id="prometheus-net" version="5.0.1" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

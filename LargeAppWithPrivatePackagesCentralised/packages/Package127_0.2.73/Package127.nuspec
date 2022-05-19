@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package127</id>
+    <version>0.2.73</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="IdentityModel" version="5.1.0" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="3.1.14" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="3.1.14" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="3.1.14" />
+        <dependency id="Microsoft.Extensions.Logging.Console" version="3.1.14" />
+        <dependency id="Nito.AsyncEx.Coordination" version="5.1.0" />
+        <dependency id="System.IdentityModel.Tokens.Jwt" version="6.11.1" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

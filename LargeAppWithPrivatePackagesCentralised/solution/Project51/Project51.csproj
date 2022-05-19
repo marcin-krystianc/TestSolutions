@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+    <DisableImplicitSystemValueTupleReference>true</DisableImplicitSystemValueTupleReference>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project126\Project126.csproj" />
+    <ProjectReference Include="..\Project131\Project131.csproj" />
+    <ProjectReference Include="..\Project132\Project132.csproj" />
+    <ProjectReference Include="..\Project13\Project13.csproj" />
+    <ProjectReference Include="..\Project142\Project142.csproj" />
+    <ProjectReference Include="..\Project149\Project149.csproj" />
+    <ProjectReference Include="..\Project15\Project15.csproj" />
+    <ProjectReference Include="..\Project168\Project168.csproj" />
+    <ProjectReference Include="..\Project173\Project173.csproj" />
+    <ProjectReference Include="..\Project196\Project196.fsproj" />
+    <ProjectReference Include="..\Project205\Project205.csproj" />
+    <ProjectReference Include="..\Project251\Project251.csproj" />
+    <ProjectReference Include="..\Project254\Project254.fsproj" />
+    <ProjectReference Include="..\Project256\Project256.csproj" />
+    <ProjectReference Include="..\Project259\Project259.csproj" />
+    <ProjectReference Include="..\Project265\Project265.csproj" />
+    <ProjectReference Include="..\Project268\Project268.csproj" />
+    <ProjectReference Include="..\Project270\Project270.csproj" />
+    <ProjectReference Include="..\Project271\Project271.fsproj" />
+    <ProjectReference Include="..\Project274\Project274.csproj" />
+    <ProjectReference Include="..\Project39\Project39.csproj" />
+    <ProjectReference Include="..\Project43\Project43.csproj" />
+    <ProjectReference Include="..\Project49\Project49.csproj" />
+    <ProjectReference Include="..\Project60\Project60.csproj" />
+    <ProjectReference Include="..\Project63\Project63.csproj" />
+    <ProjectReference Include="..\Project65\Project65.csproj" />
+    <ProjectReference Include="..\Project71\Project71.csproj" />
+    <ProjectReference Include="..\Project72\Project72.csproj" />
+    <ProjectReference Include="..\Project96\Project96.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" />
+    <PackageReference Include="FSharp.Core" />
+    <PackageReference Include="Package1" />
+    <PackageReference Include="Package101" />
+    <PackageReference Include="Package106" />
+    <PackageReference Include="Package130" />
+    <PackageReference Include="Package135" />
+    <PackageReference Include="Package14" />
+    <PackageReference Include="Package15" />
+    <PackageReference Include="Package169" />
+    <PackageReference Include="Package182" />
+    <PackageReference Include="Package2" />
+    <PackageReference Include="Package26" />
+    <PackageReference Include="Package3" />
+    <PackageReference Include="Package31" />
+    <PackageReference Include="Package72" />
+    <PackageReference Include="Package8" />
+    <PackageReference Include="Package88" />
+  </ItemGroup>
+</Project>

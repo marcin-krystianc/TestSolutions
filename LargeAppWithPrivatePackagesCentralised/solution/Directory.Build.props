@@ -1,0 +1,6 @@
+<Project>
+	<PropertyGroup>
+		<CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+		<NoWarn>NU1507</NoWarn>
+	</PropertyGroup>
+</Project>

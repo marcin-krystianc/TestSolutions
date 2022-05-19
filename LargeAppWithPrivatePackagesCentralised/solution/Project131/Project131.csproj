@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+    <DisableImplicitSystemValueTupleReference>true</DisableImplicitSystemValueTupleReference>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project259\Project259.csproj" />
+    <ProjectReference Include="..\Project39\Project39.csproj" />
+    <ProjectReference Include="..\Project60\Project60.csproj" />
+    <ProjectReference Include="..\Project96\Project96.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="ARSoft.Tools.Net.Core" />
+    <PackageReference Include="FSharp.Core" />
+    <PackageReference Include="Google.Protobuf" />
+    <PackageReference Include="JetBrains.Annotations" />
+    <PackageReference Include="Package1" />
+    <PackageReference Include="Package14" />
+    <PackageReference Include="Package15" />
+    <PackageReference Include="Package16" />
+    <PackageReference Include="Package169" />
+    <PackageReference Include="Package17" />
+    <PackageReference Include="Package2" />
+    <PackageReference Include="Package210" />
+    <PackageReference Include="Package217" />
+    <PackageReference Include="Package26" />
+    <PackageReference Include="Package28" />
+    <PackageReference Include="Package3" />
+    <PackageReference Include="Package31" />
+    <PackageReference Include="Package62" />
+    <PackageReference Include="Package8" />
+    <PackageReference Include="System.CodeDom" />
+  </ItemGroup>
+</Project>

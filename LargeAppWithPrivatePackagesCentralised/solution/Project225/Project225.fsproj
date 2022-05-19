@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+    <DisableImplicitSystemValueTupleReference>true</DisableImplicitSystemValueTupleReference>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project184\Project184.fsproj" />
+    <ProjectReference Include="..\Project224\Project224.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FParsec" />
+    <PackageReference Include="FSharp.Core" />
+    <PackageReference Include="MathNet.Numerics" />
+    <PackageReference Include="Package1" />
+    <PackageReference Include="Package14" />
+    <PackageReference Include="Package2" />
+    <PackageReference Include="Package20" />
+    <PackageReference Include="Package25" />
+    <PackageReference Include="Package252" />
+    <PackageReference Include="Package41" />
+    <PackageReference Include="Package5" />
+    <PackageReference Include="Package6" />
+    <PackageReference Include="Package76" />
+    <PackageReference Include="TensorFlowSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MyModule.fs" />
+  </ItemGroup>
+</Project>

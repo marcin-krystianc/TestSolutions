@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package170</id>
+    <version>1.0.1254</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Package110" version="1.7.1" />
+        <dependency id="Package34" version="1.2.95" />
+        <dependency id="Package171" version="1.2.68" />
+        <dependency id="Package166" version="1.2.65" />
+        <dependency id="Package155" version="1.2.46" />
+        <dependency id="Package156" version="1.2.45" />
+        <dependency id="Package35" version="2.3.106" />
+        <dependency id="Package36" version="1.2.52" />
+        <dependency id="Package71" version="1.2.76" />
+        <dependency id="Package3" version="2.3.83" />
+        <dependency id="Package172" version="1.2.56" />
+        <dependency id="Package173" version="1.2.63" />
+        <dependency id="Package167" version="1.2.51" />
+        <dependency id="Package174" version="2.1.2" />
+        <dependency id="Package175" version="2.1.2" />
+        <dependency id="Package62" version="612.0.11" />
+        <dependency id="MessagePack" version="2.1.90" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" />
+        <dependency id="Snappy.Standard" version="0.2.0" />
+        <dependency id="System.Buffers" version="4.5.1" />
+        <dependency id="System.Private.ServiceModel" version="4.5.3" />
+        <dependency id="System.ServiceModel.NetTcp" version="4.5.3" />
+        <dependency id="System.ServiceModel.Primitives" version="4.5.3" />
+        <dependency id="log4net" version="2.0.12" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

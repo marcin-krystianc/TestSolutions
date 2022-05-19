@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+    <DisableImplicitSystemValueTupleReference>true</DisableImplicitSystemValueTupleReference>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project131\Project131.csproj" />
+    <ProjectReference Include="..\Project241\Project241.fsproj" />
+    <ProjectReference Include="..\Project247\Project247.csproj" />
+    <ProjectReference Include="..\Project251\Project251.csproj" />
+    <ProjectReference Include="..\Project259\Project259.csproj" />
+    <ProjectReference Include="..\Project265\Project265.csproj" />
+    <ProjectReference Include="..\Project39\Project39.csproj" />
+    <ProjectReference Include="..\Project43\Project43.csproj" />
+    <ProjectReference Include="..\Project60\Project60.csproj" />
+    <ProjectReference Include="..\Project72\Project72.csproj" />
+    <ProjectReference Include="..\Project96\Project96.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FSharp.Core" />
+    <PackageReference Include="Google.Protobuf" />
+    <PackageReference Include="JetBrains.Annotations" />
+    <PackageReference Include="morelinq" />
+    <PackageReference Include="Package1" />
+    <PackageReference Include="Package102" />
+    <PackageReference Include="Package111" />
+    <PackageReference Include="Package133" />
+    <PackageReference Include="Package14" />
+    <PackageReference Include="Package16" />
+    <PackageReference Include="Package17" />
+    <PackageReference Include="Package18" />
+    <PackageReference Include="Package180" />
+    <PackageReference Include="Package2" />
+    <PackageReference Include="Package214" />
+    <PackageReference Include="Package215" />
+    <PackageReference Include="Package26" />
+    <PackageReference Include="Package27" />
+    <PackageReference Include="Package28" />
+    <PackageReference Include="Package29" />
+    <PackageReference Include="Package3" />
+    <PackageReference Include="Package31" />
+    <PackageReference Include="Package40" />
+    <PackageReference Include="Package52" />
+    <PackageReference Include="Package6" />
+    <PackageReference Include="Package62" />
+    <PackageReference Include="Package8" />
+  </ItemGroup>
+</Project>

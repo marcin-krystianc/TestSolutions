@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+    <DisableImplicitSystemValueTupleReference>true</DisableImplicitSystemValueTupleReference>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project129\Project129.csproj" />
+    <ProjectReference Include="..\Project131\Project131.csproj" />
+    <ProjectReference Include="..\Project13\Project13.csproj" />
+    <ProjectReference Include="..\Project142\Project142.csproj" />
+    <ProjectReference Include="..\Project15\Project15.csproj" />
+    <ProjectReference Include="..\Project166\Project166.csproj" />
+    <ProjectReference Include="..\Project170\Project170.csproj" />
+    <ProjectReference Include="..\Project173\Project173.csproj" />
+    <ProjectReference Include="..\Project208\Project208.csproj" />
+    <ProjectReference Include="..\Project20\Project20.csproj" />
+    <ProjectReference Include="..\Project243\Project243.csproj" />
+    <ProjectReference Include="..\Project256\Project256.csproj" />
+    <ProjectReference Include="..\Project259\Project259.csproj" />
+    <ProjectReference Include="..\Project261\Project261.csproj" />
+    <ProjectReference Include="..\Project265\Project265.csproj" />
+    <ProjectReference Include="..\Project39\Project39.csproj" />
+    <ProjectReference Include="..\Project60\Project60.csproj" />
+    <ProjectReference Include="..\Project61\Project61.csproj" />
+    <ProjectReference Include="..\Project63\Project63.csproj" />
+    <ProjectReference Include="..\Project65\Project65.csproj" />
+    <ProjectReference Include="..\Project71\Project71.csproj" />
+    <ProjectReference Include="..\Project72\Project72.csproj" />
+    <ProjectReference Include="..\Project96\Project96.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Equ" />
+    <PackageReference Include="FSharp.Core" />
+    <PackageReference Include="log4net" />
+    <PackageReference Include="Package1" />
+    <PackageReference Include="Package14" />
+    <PackageReference Include="Package16" />
+    <PackageReference Include="Package187" />
+    <PackageReference Include="Package192" />
+    <PackageReference Include="Package198" />
+    <PackageReference Include="Package2" />
+    <PackageReference Include="Package208" />
+    <PackageReference Include="Package220" />
+    <PackageReference Include="Package221" />
+    <PackageReference Include="Package225" />
+    <PackageReference Include="Package226" />
+    <PackageReference Include="Package227" />
+    <PackageReference Include="Package228" />
+    <PackageReference Include="Package229" />
+    <PackageReference Include="Package230" />
+    <PackageReference Include="Package26" />
+    <PackageReference Include="Package3" />
+    <PackageReference Include="Package6" />
+    <PackageReference Include="Package8" />
+    <PackageReference Include="Package87" />
+    <PackageReference Include="Package89" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package172</id>
+    <version>1.2.48</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Package31" version="2.2.666" />
+        <dependency id="Package3" version="2.3.58" />
+        <dependency id="Package266" version="1.2.34" />
+        <dependency id="Package173" version="1.2.48" />
+        <dependency id="Package267" version="1.2.40" />
+        <dependency id="Package169" version="1.2.39" />
+        <dependency id="Package10" version="4.4.81" />
+        <dependency id="Microsoft.IO.RecyclableMemoryStream" version="1.3.4" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" />
+        <dependency id="System.Collections.Immutable" version="1.5.0" />
+        <dependency id="System.Reactive.Interfaces" version="4.1.2" />
+        <dependency id="System.Reactive.Linq" version="4.1.2" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.4" />
+        <dependency id="log4net" version="2.0.12" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
