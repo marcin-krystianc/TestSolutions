@@ -5548,12 +5548,10 @@
     },
     "PackageReferences": {
       ".NETFramework4.6.1": {
-        "Package261": "1.15.0",
-        "Virtuosity.Fody": "1.21.3"
+        "Package261": "1.15.0"
       },
       ".NETStandard2.0": {
-        "Package261": "1.15.0",
-        "Virtuosity.Fody": "1.21.3"
+        "Package261": "1.15.0"
       }
     }
   },
@@ -9301,10 +9299,8 @@
     },
     "PackageReferences": {
       ".NETFramework4.6.1": {
-        "Virtuosity.Fody": "1.21.3"
       },
       ".NETStandard2.0": {
-        "Virtuosity.Fody": "1.21.3"
       }
     }
   },

@@ -33,8 +33,6 @@
   <ItemGroup>
     <PackageReference Include="FakeItEasy" />
     <PackageReference Include="FSharp.Core" />
-    <PackageReference Include="Microsoft.Build" />
-    <PackageReference Include="Microsoft.Build.Locator" />
     <PackageReference Include="Microsoft.Extensions.DependencyModel" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" />
     <PackageReference Include="Moq" />
