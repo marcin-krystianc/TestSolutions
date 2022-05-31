@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <DotnetFscCompilerPath>D:\workspace\fsharp\artifacts\bin\fsc\Debug\net6.0\fsc.dll</DotnetFscCompilerPath>
+    <OtherFlags>--refout:obj\Debug\net6.0\refint\Lib2.dll</OtherFlags>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <ItemGroup>
+	<PackageReference Include="Newtonsoft.Json.Bson" Version="1.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MyModule.fs" />
+  </ItemGroup>
+</Project>
