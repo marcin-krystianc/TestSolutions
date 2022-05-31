@@ -7,12 +7,8 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Created with NuExporter</description>
     <dependencies>
-      <group targetFramework=".NETFramework4.6.1">
-        <dependency id="Virtuosity.Fody" version="1.21.3" />
-      </group>
-      <group targetFramework=".NETStandard2.0">
-        <dependency id="Virtuosity.Fody" version="1.21.3" />
-      </group>
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework=".NETStandard2.0" />
     </dependencies>
   </metadata>
 </package>

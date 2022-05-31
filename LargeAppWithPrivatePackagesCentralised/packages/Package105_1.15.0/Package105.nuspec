@@ -9,11 +9,9 @@
     <dependencies>
       <group targetFramework=".NETFramework4.6.1">
         <dependency id="Package261" version="1.15.0" />
-        <dependency id="Virtuosity.Fody" version="1.21.3" />
       </group>
       <group targetFramework=".NETStandard2.0">
         <dependency id="Package261" version="1.15.0" />
-        <dependency id="Virtuosity.Fody" version="1.21.3" />
       </group>
     </dependencies>
   </metadata>
