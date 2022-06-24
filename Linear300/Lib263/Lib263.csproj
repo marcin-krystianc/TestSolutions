@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <ItemGroup>
+        <ProjectReference Include="..\Lib264\Lib264.csproj" />
+    </ItemGroup>
+</Project>

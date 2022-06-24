@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <ItemGroup>
+        <ProjectReference Include="..\Lib142\Lib142.csproj" />
+    </ItemGroup>
+</Project>
