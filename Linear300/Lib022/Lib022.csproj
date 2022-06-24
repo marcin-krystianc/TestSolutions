@@ -1,5 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <ItemGroup>
-        <ProjectReference Include="..\Lib23\Lib23.csproj" />
+        <ProjectReference Include="..\Lib023\Lib023.csproj" />
     </ItemGroup>
 </Project>
