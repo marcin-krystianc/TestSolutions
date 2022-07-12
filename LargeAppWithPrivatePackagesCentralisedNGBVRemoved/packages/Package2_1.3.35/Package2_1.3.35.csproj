@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Package2</AssemblyName>
+    <NuspecFile>Package2.nuspec</NuspecFile>
+    <Version>1.3.35</Version>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <NoBuild>true</NoBuild>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <PackageOutputPath>../../artifacts</PackageOutputPath>
+  </PropertyGroup>
+</Project>

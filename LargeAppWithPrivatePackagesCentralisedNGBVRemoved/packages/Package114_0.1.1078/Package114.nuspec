@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package114</id>
+    <version>0.1.1078</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.1">
+        <dependency id="Package31" version="2.2.796" />
+        <dependency id="log4net" version="2.0.13" />
+        <dependency id="prometheus-net" version="3.6.0" />
+      </group>
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="Package31" version="2.2.796" />
+        <dependency id="log4net" version="2.0.13" />
+        <dependency id="prometheus-net" version="3.6.0" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Package31" version="2.2.796" />
+        <dependency id="log4net" version="2.0.13" />
+        <dependency id="prometheus-net" version="3.6.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

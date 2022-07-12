@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package136</id>
+    <version>6.0.49</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Buffers" version="4.5.0" />
+        <dependency id="System.Memory" version="4.5.3" />
+        <dependency id="sbe-tool" version="1.13.1" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

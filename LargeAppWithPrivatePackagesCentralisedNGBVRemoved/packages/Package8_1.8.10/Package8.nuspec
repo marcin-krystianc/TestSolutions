@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package8</id>
+    <version>1.8.10</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.1">
+        <dependency id="Package86" version="2.4.22" />
+        <dependency id="Humanizer.Core" version="2.1.0" />
+        <dependency id="RestEase" version="1.4.12" />
+        <dependency id="System.ComponentModel.Annotations" version="4.4.1" />
+        <dependency id="System.Data.SqlClient" version="4.5.1" />
+        <dependency id="System.Runtime.InteropServices.RuntimeInformation" version="4.3.0" />
+        <dependency id="System.Text.Json" version="4.7.2" />
+      </group>
+      <group targetFramework=".NETFramework4.7.2">
+        <dependency id="Package86" version="2.4.22" />
+        <dependency id="Humanizer.Core" version="2.1.0" />
+        <dependency id="RestEase" version="1.4.12" />
+        <dependency id="System.ComponentModel.Annotations" version="4.4.1" />
+        <dependency id="System.Data.SqlClient" version="4.5.1" />
+        <dependency id="System.Runtime.InteropServices.RuntimeInformation" version="4.3.0" />
+        <dependency id="System.Text.Json" version="4.7.2" />
+      </group>
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="Package86" version="2.4.22" />
+        <dependency id="Humanizer.Core" version="2.1.0" />
+        <dependency id="RestEase" version="1.4.12" />
+        <dependency id="System.ComponentModel.Annotations" version="4.4.1" />
+        <dependency id="System.Data.SqlClient" version="4.5.1" />
+        <dependency id="System.Runtime.InteropServices.RuntimeInformation" version="4.3.0" />
+        <dependency id="System.Text.Json" version="4.7.2" />
+      </group>
+      <group targetFramework="net5.0">
+        <dependency id="Package86" version="2.4.22" />
+        <dependency id="Humanizer.Core" version="2.1.0" />
+        <dependency id="RestEase" version="1.4.12" />
+        <dependency id="System.ComponentModel.Annotations" version="4.4.1" />
+        <dependency id="System.Data.SqlClient" version="4.5.1" />
+        <dependency id="System.Runtime.InteropServices.RuntimeInformation" version="4.3.0" />
+        <dependency id="System.Text.Json" version="4.7.2" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Package86" version="2.4.22" />
+        <dependency id="Humanizer.Core" version="2.1.0" />
+        <dependency id="RestEase" version="1.4.12" />
+        <dependency id="System.ComponentModel.Annotations" version="4.4.1" />
+        <dependency id="System.Data.SqlClient" version="4.5.1" />
+        <dependency id="System.Runtime.InteropServices.RuntimeInformation" version="4.3.0" />
+        <dependency id="System.Text.Json" version="4.7.2" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

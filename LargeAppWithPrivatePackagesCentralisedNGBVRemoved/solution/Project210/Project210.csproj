@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+    <DisableImplicitSystemValueTupleReference>true</DisableImplicitSystemValueTupleReference>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project109\Project109.csproj" />
+    <ProjectReference Include="..\Project128\Project128.csproj" />
+    <ProjectReference Include="..\Project129\Project129.csproj" />
+    <ProjectReference Include="..\Project13\Project13.csproj" />
+    <ProjectReference Include="..\Project142\Project142.csproj" />
+    <ProjectReference Include="..\Project153\Project153.csproj" />
+    <ProjectReference Include="..\Project156\Project156.csproj" />
+    <ProjectReference Include="..\Project15\Project15.csproj" />
+    <ProjectReference Include="..\Project162\Project162.fsproj" />
+    <ProjectReference Include="..\Project215\Project215.csproj" />
+    <ProjectReference Include="..\Project218\Project218.csproj" />
+    <ProjectReference Include="..\Project60\Project60.csproj" />
+    <ProjectReference Include="..\Project72\Project72.csproj" />
+    <ProjectReference Include="..\Project74\Project74.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Accord.Math" />
+    <PackageReference Include="FSharp.Core" />
+    <PackageReference Include="MathNet.Numerics" />
+    <PackageReference Include="Package1" />
+    <PackageReference Include="Package14" />
+    <PackageReference Include="Package2" />
+  </ItemGroup>
+</Project>

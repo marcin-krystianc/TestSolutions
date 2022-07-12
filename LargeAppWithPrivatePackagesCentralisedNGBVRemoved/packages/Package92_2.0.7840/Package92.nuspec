@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package92</id>
+    <version>2.0.7840</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="Package16" version="2.1.1432" />
+        <dependency id="log4net" version="2.0.13" />
+        <dependency id="System.Configuration.ConfigurationManager" version="4.7.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

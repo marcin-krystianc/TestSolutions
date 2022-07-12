@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+    <DisableImplicitSystemValueTupleReference>true</DisableImplicitSystemValueTupleReference>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project13\Project13.csproj" />
+    <ProjectReference Include="..\Project168\Project168.csproj" />
+    <ProjectReference Include="..\Project256\Project256.csproj" />
+    <ProjectReference Include="..\Project259\Project259.csproj" />
+    <ProjectReference Include="..\Project60\Project60.csproj" />
+    <ProjectReference Include="..\Project66\Project66.csproj" />
+    <ProjectReference Include="..\Project72\Project72.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FSharp.Core" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="Moq" />
+    <PackageReference Include="NUnit" />
+    <PackageReference Include="NUnit3TestAdapter" />
+    <PackageReference Include="Package1" />
+    <PackageReference Include="Package2" />
+  </ItemGroup>
+</Project>

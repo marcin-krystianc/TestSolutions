@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package173</id>
+    <version>1.2.48</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Package266" version="1.2.34" />
+        <dependency id="Package267" version="1.2.40" />
+        <dependency id="MessagePack" version="2.1.90" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" />
+        <dependency id="System.Reactive.Interfaces" version="4.1.2" />
+        <dependency id="System.Reactive.Linq" version="4.1.2" />
+        <dependency id="protobuf-net" version="2.3.6" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

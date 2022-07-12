@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package20</id>
+    <version>15.2.2</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="FSharp.Core" version="5.0.0" />
+        <dependency id="NaturalSort.Extension" version="3.0.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

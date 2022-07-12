@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package76</id>
+    <version>5.0.6</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Package50" version="[3.0.156, 4.0.0)" />
+        <dependency id="Package45" version="[3.3.929, 4.0.0)" />
+        <dependency id="Package75" version="[2.0.75, 3.0.0)" />
+        <dependency id="Package73" version="[2.0.75, 3.0.0)" />
+        <dependency id="Package22" version="[2.3.21, 3.0.0)" />
+        <dependency id="Package20" version="[15.4.14, 16.0.0)" />
+        <dependency id="Package7" version="[4.1.138, 5.0.0)" />
+        <dependency id="Package46" version="[4.1.40, 5.0.0)" />
+        <dependency id="Package23" version="[2.0.71, 3.0.0)" />
+        <dependency id="Package47" version="[3.1.92, 4.0.0)" />
+        <dependency id="FSharp.Core" version="5.0.0" />
+        <dependency id="System.IO.Abstractions" version="4.2.13" />
+        <dependency id="log4net" version="2.0.13" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

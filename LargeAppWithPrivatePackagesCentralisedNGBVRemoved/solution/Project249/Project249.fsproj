@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+    <DisableImplicitSystemValueTupleReference>true</DisableImplicitSystemValueTupleReference>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project43\Project43.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FSharp.Core" />
+    <PackageReference Include="Package1" />
+    <PackageReference Include="Package2" />
+    <PackageReference Include="Package27" />
+    <PackageReference Include="Package28" />
+    <PackageReference Include="Package29" />
+    <PackageReference Include="Package3" />
+    <PackageReference Include="Package33" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MyModule.fs" />
+  </ItemGroup>
+</Project>

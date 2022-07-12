@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package66</id>
+    <version>4.2.64</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Package80" version="[1.1.113, 2.0.0)" />
+        <dependency id="Package242" version="[1.0.138, 2.0.0)" />
+        <dependency id="DnsClient" version="1.0.7" />
+        <dependency id="FSharp.Core" version="5.0.0" />
+        <dependency id="Package69" version="1.4.25" />
+        <dependency id="Package8" version="1.8.11" />
+        <dependency id="Sentry" version="1.2.0" />
+        <dependency id="Serilog" version="2.9.0" />
+        <dependency id="Serilog.Enrichers.Environment" version="2.1.2" />
+        <dependency id="Serilog.Enrichers.Process" version="2.0.1" />
+        <dependency id="Serilog.Enrichers.Thread" version="3.0.0" />
+        <dependency id="Serilog.Extensions.Logging" version="2.0.2" />
+        <dependency id="Serilog.Sinks.Async" version="1.4.0" />
+        <dependency id="Serilog.Sinks.Console" version="3.1.1" />
+        <dependency id="Serilog.Sinks.Network" version="2.0.1.64" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

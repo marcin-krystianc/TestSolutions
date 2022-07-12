@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+    <DisableImplicitSystemValueTupleReference>true</DisableImplicitSystemValueTupleReference>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="FSharp.Core" />
+    <PackageReference Include="Package1" />
+    <PackageReference Include="Package100" />
+    <PackageReference Include="Package101" />
+    <PackageReference Include="Package124" />
+    <PackageReference Include="Package2" />
+    <PackageReference Include="Package26" />
+    <PackageReference Include="Package31" />
+    <PackageReference Include="System.Collections.Immutable" />
+  </ItemGroup>
+</Project>

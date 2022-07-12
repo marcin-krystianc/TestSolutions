@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+    <DisableImplicitSystemValueTupleReference>true</DisableImplicitSystemValueTupleReference>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project105\Project105.csproj" />
+    <ProjectReference Include="..\Project15\Project15.csproj" />
+    <ProjectReference Include="..\Project259\Project259.csproj" />
+    <ProjectReference Include="..\Project39\Project39.csproj" />
+    <ProjectReference Include="..\Project60\Project60.csproj" />
+    <ProjectReference Include="..\Project63\Project63.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FakeItEasy" />
+    <PackageReference Include="FSharp.Core" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="Moq" />
+    <PackageReference Include="NUnit" />
+    <PackageReference Include="NUnit3TestAdapter" />
+    <PackageReference Include="Package1" />
+    <PackageReference Include="Package2" />
+    <PackageReference Include="Package26" />
+    <PackageReference Include="Package6" />
+    <PackageReference Include="Package87" />
+    <PackageReference Include="Package88" />
+  </ItemGroup>
+</Project>

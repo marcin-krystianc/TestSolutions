@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+    <DisableImplicitSystemValueTupleReference>true</DisableImplicitSystemValueTupleReference>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project183\Project183.fsproj" />
+    <ProjectReference Include="..\Project6\Project6.fsproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FSharp.Core" />
+    <PackageReference Include="FsUnit" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="NUnit3TestAdapter" />
+    <PackageReference Include="Package1" />
+    <PackageReference Include="Package10" />
+    <PackageReference Include="Package134" />
+    <PackageReference Include="Package2" />
+    <PackageReference Include="Package20" />
+    <PackageReference Include="Package21" />
+    <PackageReference Include="Package243" />
+    <PackageReference Include="Package245" />
+    <PackageReference Include="Package64" />
+    <PackageReference Include="Package65" />
+    <PackageReference Include="Package66" />
+    <PackageReference Include="Package69" />
+    <PackageReference Include="Package7" />
+    <PackageReference Include="Package80" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MyModule.fs" />
+  </ItemGroup>
+</Project>

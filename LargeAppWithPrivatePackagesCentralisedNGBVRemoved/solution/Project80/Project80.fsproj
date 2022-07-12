@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+    <DisableImplicitSystemValueTupleReference>true</DisableImplicitSystemValueTupleReference>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project109\Project109.csproj" />
+    <ProjectReference Include="..\Project115\Project115.csproj" />
+    <ProjectReference Include="..\Project128\Project128.csproj" />
+    <ProjectReference Include="..\Project13\Project13.csproj" />
+    <ProjectReference Include="..\Project142\Project142.csproj" />
+    <ProjectReference Include="..\Project15\Project15.csproj" />
+    <ProjectReference Include="..\Project183\Project183.fsproj" />
+    <ProjectReference Include="..\Project256\Project256.csproj" />
+    <ProjectReference Include="..\Project259\Project259.csproj" />
+    <ProjectReference Include="..\Project39\Project39.csproj" />
+    <ProjectReference Include="..\Project43\Project43.csproj" />
+    <ProjectReference Include="..\Project60\Project60.csproj" />
+    <ProjectReference Include="..\Project63\Project63.csproj" />
+    <ProjectReference Include="..\Project76\Project76.fsproj" />
+    <ProjectReference Include="..\Project77\Project77.fsproj" />
+    <ProjectReference Include="..\Project78\Project78.fsproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FSharp.Core" />
+    <PackageReference Include="MathNet.Numerics" />
+    <PackageReference Include="MathNet.Numerics.FSharp" />
+    <PackageReference Include="Package1" />
+    <PackageReference Include="Package13" />
+    <PackageReference Include="Package2" />
+    <PackageReference Include="Package21" />
+    <PackageReference Include="Package26" />
+    <PackageReference Include="Package41" />
+    <PackageReference Include="Package5" />
+    <PackageReference Include="Package6" />
+    <PackageReference Include="R.NET" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MyModule.fs" />
+  </ItemGroup>
+</Project>

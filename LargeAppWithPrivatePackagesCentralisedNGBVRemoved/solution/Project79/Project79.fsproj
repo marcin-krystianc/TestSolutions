@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+    <DisableImplicitSystemValueTupleReference>true</DisableImplicitSystemValueTupleReference>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project259\Project259.csproj" />
+    <ProjectReference Include="..\Project76\Project76.fsproj" />
+    <ProjectReference Include="..\Project77\Project77.fsproj" />
+    <ProjectReference Include="..\Project78\Project78.fsproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FSharp.Core" />
+    <PackageReference Include="FsUnit" />
+    <PackageReference Include="MathNet.Numerics" />
+    <PackageReference Include="MathNet.Numerics.FSharp" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="NUnit3TestAdapter" />
+    <PackageReference Include="Package1" />
+    <PackageReference Include="Package13" />
+    <PackageReference Include="Package14" />
+    <PackageReference Include="Package2" />
+    <PackageReference Include="Package41" />
+    <PackageReference Include="Package5" />
+    <PackageReference Include="Package6" />
+    <PackageReference Include="Package79" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MyModule.fs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+    <DisableImplicitSystemValueTupleReference>true</DisableImplicitSystemValueTupleReference>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project259\Project259.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FSharp.Core" />
+    <PackageReference Include="JetBrains.Annotations" />
+    <PackageReference Include="MathNet.Numerics.MKL.Win-x64" />
+    <PackageReference Include="morelinq" />
+    <PackageReference Include="Package1" />
+    <PackageReference Include="Package10" />
+    <PackageReference Include="Package109" />
+    <PackageReference Include="Package114" />
+    <PackageReference Include="Package116" />
+    <PackageReference Include="Package130" />
+    <PackageReference Include="Package133" />
+    <PackageReference Include="Package135" />
+    <PackageReference Include="Package14" />
+    <PackageReference Include="Package141" />
+    <PackageReference Include="Package15" />
+    <PackageReference Include="Package155" />
+    <PackageReference Include="Package156" />
+    <PackageReference Include="Package157" />
+    <PackageReference Include="Package158" />
+    <PackageReference Include="Package159" />
+    <PackageReference Include="Package16" />
+    <PackageReference Include="Package160" />
+    <PackageReference Include="Package2" />
+    <PackageReference Include="Package26" />
+    <PackageReference Include="Package3" />
+    <PackageReference Include="Package31" />
+    <PackageReference Include="Package34" />
+    <PackageReference Include="Package38" />
+    <PackageReference Include="Package6" />
+    <PackageReference Include="Package8" />
+    <PackageReference Include="Package87" />
+    <PackageReference Include="Package97" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" />
+    <PackageReference Include="System.Management" />
+  </ItemGroup>
+</Project>

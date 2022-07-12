@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package125</id>
+    <version>1.0.4465</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Package16" version="2.1.1383" />
+        <dependency id="Package102" version="2.1.1383" />
+        <dependency id="Package126" version="2.1.1383" />
+        <dependency id="Package127" version="0.2.73" />
+        <dependency id="Package128" version="0.2.98" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="3.1.16" />
+        <dependency id="Microsoft.Extensions.Http" version="2.2.0" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" />
+        <dependency id="SourceLink.Embed.AllSourceFiles" version="2.8.3" />
+        <dependency id="System.Net.Http" version="4.3.3" />
+        <dependency id="log4net" version="2.0.12" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

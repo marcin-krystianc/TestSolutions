@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+    <DisableImplicitSystemValueTupleReference>true</DisableImplicitSystemValueTupleReference>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project110\Project110.csproj" />
+    <ProjectReference Include="..\Project128\Project128.csproj" />
+    <ProjectReference Include="..\Project129\Project129.csproj" />
+    <ProjectReference Include="..\Project140\Project140.csproj" />
+    <ProjectReference Include="..\Project153\Project153.csproj" />
+    <ProjectReference Include="..\Project15\Project15.csproj" />
+    <ProjectReference Include="..\Project228\Project228.fsproj" />
+    <ProjectReference Include="..\Project259\Project259.csproj" />
+    <ProjectReference Include="..\Project39\Project39.csproj" />
+    <ProjectReference Include="..\Project60\Project60.csproj" />
+    <ProjectReference Include="..\Project63\Project63.csproj" />
+    <ProjectReference Include="..\Project72\Project72.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FSharp.Core" />
+    <PackageReference Include="Package1" />
+    <PackageReference Include="Package2" />
+    <PackageReference Include="Package26" />
+    <PackageReference Include="Package6" />
+  </ItemGroup>
+</Project>

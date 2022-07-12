@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+    <DisableImplicitSystemValueTupleReference>true</DisableImplicitSystemValueTupleReference>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project131\Project131.csproj" />
+    <ProjectReference Include="..\Project133\Project133.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FakeItEasy" />
+    <PackageReference Include="FSharp.Core" />
+    <PackageReference Include="Google.Protobuf" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="NUnit" />
+    <PackageReference Include="NUnit3TestAdapter" />
+    <PackageReference Include="Package1" />
+    <PackageReference Include="Package17" />
+    <PackageReference Include="Package2" />
+    <PackageReference Include="Package3" />
+    <PackageReference Include="Polly" />
+  </ItemGroup>
+</Project>

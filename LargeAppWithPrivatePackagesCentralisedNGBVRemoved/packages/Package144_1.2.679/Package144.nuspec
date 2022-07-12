@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package144</id>
+    <version>1.2.679</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Package264" version="2.2.78" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="2.2.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

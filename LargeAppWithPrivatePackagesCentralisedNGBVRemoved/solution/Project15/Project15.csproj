@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+    <DisableImplicitSystemValueTupleReference>true</DisableImplicitSystemValueTupleReference>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project129\Project129.csproj" />
+    <ProjectReference Include="..\Project131\Project131.csproj" />
+    <ProjectReference Include="..\Project13\Project13.csproj" />
+    <ProjectReference Include="..\Project243\Project243.csproj" />
+    <ProjectReference Include="..\Project247\Project247.csproj" />
+    <ProjectReference Include="..\Project256\Project256.csproj" />
+    <ProjectReference Include="..\Project259\Project259.csproj" />
+    <ProjectReference Include="..\Project265\Project265.csproj" />
+    <ProjectReference Include="..\Project39\Project39.csproj" />
+    <ProjectReference Include="..\Project43\Project43.csproj" />
+    <ProjectReference Include="..\Project60\Project60.csproj" />
+    <ProjectReference Include="..\Project63\Project63.csproj" />
+    <ProjectReference Include="..\Project72\Project72.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FSharp.Core" />
+    <PackageReference Include="JetBrains.Annotations" />
+    <PackageReference Include="Microsoft.AspNetCore.WebUtilities" />
+    <PackageReference Include="Microsoft.Extensions.Primitives" />
+    <PackageReference Include="Package1" />
+    <PackageReference Include="Package11" />
+    <PackageReference Include="Package13" />
+    <PackageReference Include="Package137" />
+    <PackageReference Include="Package14" />
+    <PackageReference Include="Package16" />
+    <PackageReference Include="Package2" />
+    <PackageReference Include="Package26" />
+    <PackageReference Include="Package3" />
+    <PackageReference Include="Package30" />
+    <PackageReference Include="Package31" />
+    <PackageReference Include="Package5" />
+    <PackageReference Include="Package6" />
+    <PackageReference Include="Package8" />
+    <PackageReference Include="Package87" />
+    <PackageReference Include="Package88" />
+    <PackageReference Include="Package90" />
+    <PackageReference Include="System.Collections.Immutable" />
+  </ItemGroup>
+</Project>

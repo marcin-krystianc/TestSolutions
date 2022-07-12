@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Package20</AssemblyName>
+    <NuspecFile>Package20.nuspec</NuspecFile>
+    <Version>14.0.14</Version>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <NoBuild>true</NoBuild>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <PackageOutputPath>../../artifacts</PackageOutputPath>
+  </PropertyGroup>
+</Project>

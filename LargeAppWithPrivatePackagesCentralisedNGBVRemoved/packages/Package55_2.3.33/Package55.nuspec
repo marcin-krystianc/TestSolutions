@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package55</id>
+    <version>2.3.33</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.1">
+        <dependency id="Package260" version="2.4.22" />
+        <dependency id="Package62" version="612.0.11" />
+        <dependency id="RestEase" version="[1.4.12, 1.5.1)" />
+      </group>
+      <group targetFramework=".NETFramework4.7.2">
+        <dependency id="Package260" version="2.4.22" />
+        <dependency id="Package62" version="612.0.11" />
+        <dependency id="RestEase" version="[1.4.12, 1.5.1)" />
+      </group>
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="Package260" version="2.4.22" />
+        <dependency id="Package62" version="612.0.11" />
+        <dependency id="RestEase" version="[1.4.12, 1.5.1)" />
+      </group>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="Package260" version="2.4.22" />
+        <dependency id="Package62" version="612.0.11" />
+        <dependency id="RestEase" version="[1.4.12, 1.5.1)" />
+      </group>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Package260" version="2.4.22" />
+        <dependency id="Package62" version="612.0.11" />
+        <dependency id="RestEase" version="[1.4.12, 1.5.1)" />
+      </group>
+      <group targetFramework="net5.0">
+        <dependency id="Package260" version="2.4.22" />
+        <dependency id="Package62" version="612.0.11" />
+        <dependency id="RestEase" version="[1.4.12, 1.5.1)" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Package260" version="2.4.22" />
+        <dependency id="Package62" version="612.0.11" />
+        <dependency id="RestEase" version="[1.4.12, 1.5.1)" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

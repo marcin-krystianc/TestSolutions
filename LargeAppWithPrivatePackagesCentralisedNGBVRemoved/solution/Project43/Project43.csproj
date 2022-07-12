@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+    <DisableImplicitSystemValueTupleReference>true</DisableImplicitSystemValueTupleReference>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project259\Project259.csproj" />
+    <ProjectReference Include="..\Project39\Project39.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FSharp.Core" />
+    <PackageReference Include="Package1" />
+    <PackageReference Include="Package13" />
+    <PackageReference Include="Package14" />
+    <PackageReference Include="Package15" />
+    <PackageReference Include="Package16" />
+    <PackageReference Include="Package167" />
+    <PackageReference Include="Package170" />
+    <PackageReference Include="Package176" />
+    <PackageReference Include="Package177" />
+    <PackageReference Include="Package2" />
+    <PackageReference Include="Package27" />
+    <PackageReference Include="Package28" />
+    <PackageReference Include="Package29" />
+    <PackageReference Include="Package3" />
+    <PackageReference Include="Package30" />
+    <PackageReference Include="Package31" />
+    <PackageReference Include="Package33" />
+    <PackageReference Include="Package34" />
+    <PackageReference Include="Package36" />
+    <PackageReference Include="Package39" />
+    <PackageReference Include="Package40" />
+    <PackageReference Include="Package49" />
+    <PackageReference Include="Package5" />
+    <PackageReference Include="Package51" />
+    <PackageReference Include="Package52" />
+    <PackageReference Include="Package6" />
+    <PackageReference Include="Package63" />
+    <PackageReference Include="System.Collections.Immutable" />
+  </ItemGroup>
+</Project>

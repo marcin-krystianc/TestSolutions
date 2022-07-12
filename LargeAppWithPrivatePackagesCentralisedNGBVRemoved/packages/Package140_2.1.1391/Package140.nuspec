@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package140</id>
+    <version>2.1.1391</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.1" />
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="System.Configuration.ConfigurationManager" version="4.5.0" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Configuration.ConfigurationManager" version="4.5.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

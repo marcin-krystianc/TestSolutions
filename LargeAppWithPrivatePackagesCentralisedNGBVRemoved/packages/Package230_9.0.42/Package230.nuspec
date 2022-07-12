@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package230</id>
+    <version>9.0.42</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Package11" version="3.5.137" />
+        <dependency id="Package87" version="2.0.10" />
+        <dependency id="JetBrains.Annotations" version="2020.3.0" />
+        <dependency id="SharpCompress" version="0.26.0" />
+        <dependency id="Package231" version="2.0.96" />
+        <dependency id="System.IO.Abstractions" version="4.2.13" />
+        <dependency id="System.Reactive" version="4.1.2" />
+        <dependency id="log4net" version="2.0.13" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
