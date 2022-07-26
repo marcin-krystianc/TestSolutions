@@ -1,12 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <ItemGroup>
-	<ProjectReference Include="..\Lib3\Lib3.fsproj" />
-	<ProjectReference Include="..\Lib4\Lib4.csproj" />
-    
+    <ProjectReference Include="..\Lib1\Lib1.csproj" />
+    <ProjectReference Include="..\Lib2\Lib2.fsproj" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MyModule.fs" />

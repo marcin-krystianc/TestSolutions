@@ -1,4 +1,4 @@
-namespace Lib1
+namespace App1
 {
     public class MyClass
     {

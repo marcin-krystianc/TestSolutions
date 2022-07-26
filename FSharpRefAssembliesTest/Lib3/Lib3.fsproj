@@ -4,9 +4,7 @@
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <ItemGroup>
-	<ProjectReference Include="..\Lib3\Lib3.fsproj" />
-	<ProjectReference Include="..\Lib4\Lib4.csproj" />
-    
+	<PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MyModule.fs" />

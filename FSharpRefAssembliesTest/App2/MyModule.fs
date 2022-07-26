@@ -1,4 +1,4 @@
-namespace Lib2
+namespace App2
 
 
 module MyModule =

@@ -1,4 +1,4 @@
-namespace Lib2
+namespace Lib3
 
 
 module MyModule =

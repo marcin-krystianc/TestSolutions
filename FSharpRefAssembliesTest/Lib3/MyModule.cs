@@ -1,4 +1,4 @@
-namespace Project1
+namespace Lib3
 {
     public class MyClass
     {
