@@ -3,4 +3,7 @@
 		<CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
 		<NoWarn>NU1507</NoWarn>
 	</PropertyGroup>
+	<Target Name="MyTarget">
+		<Message Text="MyTarget" />
+	</Target>
 </Project>
