@@ -6,4 +6,7 @@
 	<Target Name="MyTarget">
 		<Message Text="MyTarget" />
 	</Target>
+	<Target Name="MyTarget2">
+		<Message Text="MyTarget2" />
+	</Target>
 </Project>
