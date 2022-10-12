@@ -2,11 +2,12 @@
 	<PropertyGroup>
 		<CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
 		<NoWarn>NU1507</NoWarn>
+        <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
 	</PropertyGroup>
 	<Target Name="MyTarget">
 		<Message Text="MyTarget" />
 	</Target>
 	<Target Name="MyTarget2">
 		<Message Text="MyTarget2" />
-	</Target>
+	</Target>	
 </Project>
