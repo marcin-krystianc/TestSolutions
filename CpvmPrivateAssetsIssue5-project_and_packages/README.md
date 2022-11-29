@@ -1,0 +1,1 @@
+https://github.com/NuGet/NuGet.Client/pull/4669
