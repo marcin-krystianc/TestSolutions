@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <PackageWithBuildTransitive>true</PackageWithBuildTransitive>
+    <PackageWithBuildTransitive_buildTransitive>true</PackageWithBuildTransitive_buildTransitive>
+  </PropertyGroup>
+</Project>
