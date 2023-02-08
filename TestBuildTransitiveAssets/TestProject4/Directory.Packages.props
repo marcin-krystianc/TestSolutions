@@ -1,0 +1,6 @@
+<Project>
+    <ItemGroup>
+        <PackageVersion Include="PackageWithBuildTransitive" Version="1.0.0" />
+        <PackageVersion Include="PackageReferencingPackageWithBuildTransitive" Version="1.0.0" />
+    </ItemGroup>
+</Project>

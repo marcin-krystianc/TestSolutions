@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+	<PackageReference Include="PackageReferencingPackageWithBuildTransitive"  PrivateAssets = "BuildTransitive" />
+  </ItemGroup>
+	<Target Name="MyTarget">
+		<Message Text="Hello" Importance="high"/>
+		<Message Text="Hello PackageWithBuildTransitive" Importance="high" Condition="'$(PackageWithBuildTransitive)' == 'true'"/>
+		<Message Text="Hello PackageWithBuildTransitive_build" Importance="high" Condition="'$(PackageWithBuildTransitive_build)' == 'true'"/>
+		<Message Text="Hello PackageWithBuildTransitive_buildTransitive" Importance="high" Condition="'$(PackageWithBuildTransitive_buildTransitive)' == 'true'"/>
+	</Target>
+</Project>
