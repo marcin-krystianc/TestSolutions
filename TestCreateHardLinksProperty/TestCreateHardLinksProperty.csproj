@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <CreateHardLinksForCopyLocalIfPossible>true</CreateHardLinksForCopyLocalIfPossible>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="newtonsoft.json" Version="13.0.1"/>
+    </ItemGroup>
+
+    <Target Name="MyTarget" AfterTargets="AfterBuild">
+        <Message Text="The CreateHardLinksForCopyLocalIfPossible property is set to '$(CreateHardLinksForCopyLocalIfPossible)'." Importance="high"/>
+        <Message Text="The BuildingInsideVisualStudio property is set to '$(BuildingInsideVisualStudio)'." Importance="high"/>
+    </Target>
+</Project>
