@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package19</id>
+    <version>4.3.16</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Package61" version="4.3.16" />
+        <dependency id="FSharp.Core" version="5.0.0" />
+        <dependency id="Microsoft.Toolkit.HighPerformance" version="7.0.2" />
+        <dependency id="protobuf-net" version="2.3.6" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

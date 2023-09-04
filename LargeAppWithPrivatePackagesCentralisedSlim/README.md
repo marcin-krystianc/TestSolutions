@@ -1,0 +1,1 @@
+Copied from the LargeAppWithPrivatePackagesCentralisedNGBVRemoved. However, some NuGet references were removed so it requires much less disk space to build.

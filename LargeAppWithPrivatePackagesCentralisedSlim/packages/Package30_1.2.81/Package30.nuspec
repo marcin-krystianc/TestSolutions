@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package30</id>
+    <version>1.2.81</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Package35" version="2.3.66" />
+        <dependency id="Package31" version="2.2.742" />
+        <dependency id="Package71" version="1.2.51" />
+        <dependency id="Package3" version="2.3.58" />
+        <dependency id="log4net" version="2.0.12" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

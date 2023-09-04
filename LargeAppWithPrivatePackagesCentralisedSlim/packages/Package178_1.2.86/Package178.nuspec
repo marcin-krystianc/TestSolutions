@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package178</id>
+    <version>1.2.86</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Package34" version="1.2.95" />
+        <dependency id="Package35" version="2.3.66" />
+        <dependency id="Package71" version="1.2.76" />
+        <dependency id="Package3" version="2.3.86" />
+        <dependency id="Package150" version="1.5.1" />
+        <dependency id="Package196" version="1.0.14" />
+        <dependency id="JetBrains.Annotations" version="2018.3.0" />
+        <dependency id="System.Configuration.ConfigurationManager" version="4.5.0" />
+        <dependency id="log4net" version="2.0.12" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

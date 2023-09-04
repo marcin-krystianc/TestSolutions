@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+    <DisableImplicitSystemValueTupleReference>true</DisableImplicitSystemValueTupleReference>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="FSharp.Core" />
+    <PackageReference Include="log4net" />
+    <PackageReference Include="Package1" />
+    <PackageReference Include="Package151" />
+    <PackageReference Include="Package176" />
+    <PackageReference Include="Package2" />
+    <PackageReference Include="Package20" />
+    <PackageReference Include="Package53" />
+    <PackageReference Include="Package54" />
+    <PackageReference Include="Package63" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MyModule.fs" />
+  </ItemGroup>
+</Project>

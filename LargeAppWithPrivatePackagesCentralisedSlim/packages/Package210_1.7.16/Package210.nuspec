@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package210</id>
+    <version>1.7.16</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.1">
+        <dependency id="Package211" version="2.0.93" />
+        <dependency id="Package212" version="1.2.359" />
+      </group>
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="Package211" version="2.0.93" />
+        <dependency id="Package212" version="1.2.359" />
+        <dependency id="Microsoft.Extensions.Caching.Abstractions" version="2.0.0" />
+        <dependency id="Microsoft.Extensions.Caching.Memory" version="2.0.0" />
+        <dependency id="Microsoft.Extensions.Options" version="2.0.0" />
+        <dependency id="Microsoft.Extensions.Primitives" version="2.0.0" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" />
+      </group>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="Package211" version="2.0.93" />
+        <dependency id="Package212" version="1.2.359" />
+        <dependency id="Microsoft.Extensions.Caching.Abstractions" version="2.0.0" />
+        <dependency id="Microsoft.Extensions.Caching.Memory" version="2.0.0" />
+        <dependency id="Microsoft.Extensions.Options" version="2.0.0" />
+        <dependency id="Microsoft.Extensions.Primitives" version="2.0.0" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Package211" version="2.0.93" />
+        <dependency id="Package212" version="1.2.359" />
+        <dependency id="Microsoft.Extensions.Caching.Abstractions" version="2.0.0" />
+        <dependency id="Microsoft.Extensions.Caching.Memory" version="2.0.0" />
+        <dependency id="Microsoft.Extensions.Options" version="2.0.0" />
+        <dependency id="Microsoft.Extensions.Primitives" version="2.0.0" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

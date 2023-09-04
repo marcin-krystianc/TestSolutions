@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package34</id>
+    <version>1.2.67</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Package152" version="1.2.34" />
+        <dependency id="Package35" version="2.3.66" />
+        <dependency id="Package31" version="2.2.578" />
+        <dependency id="Package38" version="2.4.5" />
+        <dependency id="Package3" version="2.3.24" />
+        <dependency id="Package140" version="2.1.1219" />
+        <dependency id="Package153" version="1.2.28" />
+        <dependency id="Package99" version="1.0.218" />
+        <dependency id="Package4" version="1.2.23" />
+        <dependency id="Package86" version="2.4.8" />
+        <dependency id="Package8" version="1.7.13" />
+        <dependency id="Package9" version="1.1.0" />
+        <dependency id="Package154" version="2.4.37" />
+        <dependency id="JetBrains.Annotations" version="2018.3.0" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" />
+        <dependency id="System.Collections.Immutable" version="1.5.0" />
+        <dependency id="System.Configuration.ConfigurationManager" version="4.5.0" />
+        <dependency id="System.DirectoryServices" version="4.5.0" />
+        <dependency id="System.DirectoryServices.AccountManagement" version="4.5.0" />
+        <dependency id="System.Runtime.InteropServices.RuntimeInformation" version="4.3.0" />
+        <dependency id="System.ServiceProcess.ServiceController" version="4.5.0" />
+        <dependency id="log4net" version="2.0.12" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

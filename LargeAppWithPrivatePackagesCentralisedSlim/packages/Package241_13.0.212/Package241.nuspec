@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package241</id>
+    <version>13.0.212</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Package64" version="[56.0.68, 57.0.0)" />
+        <dependency id="Package21" version="[16.4.1, 17.0.0)" />
+        <dependency id="FSharp.Core" version="5.0.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

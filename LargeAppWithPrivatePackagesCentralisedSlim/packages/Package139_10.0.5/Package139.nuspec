@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package139</id>
+    <version>10.0.5</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="Package138" version="9.0.3" />
+        <dependency id="Package104" version="4.1.1" />
+        <dependency id="Package124" version="1.0.4329" />
+        <dependency id="sbe-tool" version="1.13.1" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

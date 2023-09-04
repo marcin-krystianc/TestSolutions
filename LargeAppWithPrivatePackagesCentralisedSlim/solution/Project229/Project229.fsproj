@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+    <DisableImplicitSystemValueTupleReference>true</DisableImplicitSystemValueTupleReference>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project100\Project100.fsproj" />
+    <ProjectReference Include="..\Project109\Project109.csproj" />
+    <ProjectReference Include="..\Project110\Project110.csproj" />
+    <ProjectReference Include="..\Project115\Project115.csproj" />
+    <ProjectReference Include="..\Project128\Project128.csproj" />
+    <ProjectReference Include="..\Project129\Project129.csproj" />
+    <ProjectReference Include="..\Project142\Project142.csproj" />
+    <ProjectReference Include="..\Project153\Project153.csproj" />
+    <ProjectReference Include="..\Project15\Project15.csproj" />
+    <ProjectReference Include="..\Project211\Project211.fsproj" />
+    <ProjectReference Include="..\Project239\Project239.fsproj" />
+    <ProjectReference Include="..\Project256\Project256.csproj" />
+    <ProjectReference Include="..\Project257\Project257.fsproj" />
+    <ProjectReference Include="..\Project259\Project259.csproj" />
+    <ProjectReference Include="..\Project60\Project60.csproj" />
+    <ProjectReference Include="..\Project63\Project63.csproj" />
+    <ProjectReference Include="..\Project99\Project99.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FSharp.Core" />
+    <PackageReference Include="MathNet.Numerics" />
+    <PackageReference Include="MathNet.Numerics.FSharp" />
+    <PackageReference Include="Package1" />
+    <PackageReference Include="Package17" />
+    <PackageReference Include="Package18" />
+    <PackageReference Include="Package2" />
+    <PackageReference Include="Package20" />
+    <PackageReference Include="Package26" />
+    <PackageReference Include="Package41" />
+    <PackageReference Include="Package49" />
+    <PackageReference Include="Package52" />
+    <PackageReference Include="Package54" />
+    <PackageReference Include="Package6" />
+    <PackageReference Include="Package63" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MyModule.fs" />
+  </ItemGroup>
+</Project>

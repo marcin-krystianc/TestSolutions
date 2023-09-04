@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package168</id>
+    <version>1.2.31</version>
+    <authors>NuExporter</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Created with NuExporter</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Package150" version="1.5.1" />
+        <dependency id="Package164" version="1.2.2" />
+        <dependency id="protobuf-net" version="2.3.6" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,63 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
+    <DisableImplicitSystemValueTupleReference>true</DisableImplicitSystemValueTupleReference>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project13\Project13.csproj" />
+    <ProjectReference Include="..\Project15\Project15.csproj" />
+    <ProjectReference Include="..\Project257\Project257.fsproj" />
+    <ProjectReference Include="..\Project259\Project259.csproj" />
+    <ProjectReference Include="..\Project265\Project265.csproj" />
+    <ProjectReference Include="..\Project39\Project39.csproj" />
+    <ProjectReference Include="..\Project43\Project43.csproj" />
+    <ProjectReference Include="..\Project44\Project44.csproj" />
+    <ProjectReference Include="..\Project66\Project66.csproj" />
+    <ProjectReference Include="..\Project96\Project96.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FakeItEasy" />
+    <PackageReference Include="FSharp.Core" />
+    <PackageReference Include="FsUnit" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="NBench" />
+    <PackageReference Include="NBench.Runner" />
+    <PackageReference Include="NUnit3TestAdapter" />
+    <PackageReference Include="Package1" />
+    <PackageReference Include="Package14" />
+    <PackageReference Include="Package143" />
+    <PackageReference Include="Package145" />
+    <PackageReference Include="Package146" />
+    <PackageReference Include="Package15" />
+    <PackageReference Include="Package160" />
+    <PackageReference Include="Package17" />
+    <PackageReference Include="Package176" />
+    <PackageReference Include="Package18" />
+    <PackageReference Include="Package2" />
+    <PackageReference Include="Package20" />
+    <PackageReference Include="Package240" />
+    <PackageReference Include="Package247" />
+    <PackageReference Include="Package253" />
+    <PackageReference Include="Package254" />
+    <PackageReference Include="Package3" />
+    <PackageReference Include="Package44" />
+    <PackageReference Include="Package48" />
+    <PackageReference Include="Package49" />
+    <PackageReference Include="Package51" />
+    <PackageReference Include="Package52" />
+    <PackageReference Include="Package53" />
+    <PackageReference Include="Package54" />
+    <PackageReference Include="Package56" />
+    <PackageReference Include="Package59" />
+    <PackageReference Include="Package62" />
+    <PackageReference Include="Package63" />
+    <PackageReference Include="Package79" />
+    <PackageReference Include="Package86" />
+    <PackageReference Include="TypeShape" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MyModule.fs" />
+  </ItemGroup>
+</Project>
